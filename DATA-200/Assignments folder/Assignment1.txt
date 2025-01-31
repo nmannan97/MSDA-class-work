@@ -27,3 +27,9 @@ Screen 4: If the input 2 then present customer screen:
 Note: Strictly no Copy from anyone or from internet.
 
 File Naming Conventions : Lastname_HW1
+
+Admin ID's:
+Username: admin1, Password: 12345
+
+Customer ID's:
+Username customer, Password: 12345
