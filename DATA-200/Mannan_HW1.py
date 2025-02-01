@@ -148,7 +148,7 @@ class MainWindow(QMainWindow):
         central_widget.setLayout(layout)
         self.setCentralWidget(central_widget)
 
-        
+        jsonFile = os.path.join(os.getcwd(),"DATA-200", "Assignments folder", "assignment1.json")
 
         self.customer_window = None  # Initialize customer window as None
 
@@ -168,7 +168,7 @@ class MainWindow(QMainWindow):
 # Run the application
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    main_win = AdminPortalWindow()
-    #main_win = MainWindow() #Change to login once done
+    #main_win = AdminPortalWindow()
+    main_win = MainWindow() #Change to login once done
     main_win.show()
     sys.exit(app.exec_())
