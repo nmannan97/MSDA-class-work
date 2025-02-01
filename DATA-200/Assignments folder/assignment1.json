@@ -1,0 +1,26 @@
+{
+    "customer1" : {
+        "TV" : "",
+        "Radio": "",
+        "mbile phone": "",
+        "laptop": ""
+    },
+
+    "customer2" : {
+        "TV" : "",
+        "Radio": "",
+        "mbile phone": "",
+        "laptop": ""
+    },
+
+    "admin1" : {
+        "failedLogins" : 0,
+        "successfulLogins": 0
+    },
+    
+    "admin2" : {
+        "failedLogins" : 0,
+        "successfulLogins": 0
+    }
+    
+}

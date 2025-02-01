@@ -29,7 +29,8 @@ Note: Strictly no Copy from anyone or from internet.
 File Naming Conventions : Lastname_HW1
 
 Admin ID's:
-Username: admin1, Password: 12345
+Username: admin1, Password: 12345, Admin ID: 001
+Username: admin2, Password: 12345, Admin ID: 002
 
 Customer ID's:
 Username customer, Password: 12345
