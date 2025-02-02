@@ -1,0 +1,28 @@
+{
+    "Customer 1" : {
+        "TV" : "1",
+        "Radio": "2",
+        "mbile phone": "3",
+        "laptop": "4"
+    },
+
+    "Customer 2" : {
+        "TV" : "NA",
+        "Radio": "NA",
+        "mbile phone": "NA",
+        "laptop": "NA"
+    },
+
+    "admin1" : {
+        "admin id": "001",
+        "failedLogins" : 0,
+        "successfulLogins": 0
+    },
+    
+    "admin2" : {
+        "admin id": "002",
+        "failedLogins" : 0,
+        "successfulLogins": 0
+    }
+    
+}

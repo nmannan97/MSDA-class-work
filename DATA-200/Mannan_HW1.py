@@ -20,11 +20,12 @@ class errorWindow(QWidget):
 
 # Define the customer window
 class customerWindow(QWidget):
-    def __init__(self):
+    def __init__(self, data: dict):
         super().__init__()
         self.setWindowTitle("Admin ID window")
         self.resize(450, 350)
         self.items = ["TV", "Radio", "mbile phone", "laptop"]
+        self.data = data
 
         # Set dropdown menu
         self.dropdown = QComboBox()
@@ -71,10 +72,11 @@ class customerWindow(QWidget):
 
 # Define admin ID window
 class AdminIDWindow(QMainWindow):
-    def __init__(self):
+    def __init__(self, data: dict):
         super().__init__()
         self.setWindowTitle("Login admin ID")
         self.resize(400, 300)
+        self.data = data
 
         # Create a text input field
         self.adminid_input = QLineEdit()
@@ -95,7 +97,9 @@ class AdminIDWindow(QMainWindow):
     def open_admin_window(self):
         adminid = self.adminid_input.text()
         if "001" in adminid:
-            self.customer_window = AdminPortalWindow()
+            with open() as file: 
+                self.data
+            self.customer_window = AdminPortalWindow(self.data, adminid)
             self.customer_window.show()
         else:
             self.customer_window = errorWindow("Error!\nInvalid admin ID entered")
@@ -103,14 +107,31 @@ class AdminIDWindow(QMainWindow):
 
 # Define admin ID window
 class AdminPortalWindow(QMainWindow):
-    def __init__(self):
+    def __init__(self, data: dict, adminid: str):
         super().__init__()
         self.setWindowTitle("Admin portal")
         self.resize(400, 300)
+        self.data = data
+        labels = {}
+        logins = {}
+        for keys in self.data:
+            if "admin" in keys:
+                for key in self.data[keys]:
+                    #print(self.data[keys]["admin id"])
+                    if self.data[keys]["admin id"] == adminid:
+                        logins["admin"] = keys
+                        logins['failedLogins'] = self.data[keys]['failedLogins']
+                        logins['successfulLogins'] = self.data[keys]['successfulLogins']
+                continue
+            temp_string = "{} rating\n".format(keys)
+            for key in self.data[keys]:
+                print(key)
+                temp_string += "Customer rating for {}={}\n".format(key, str(self.data[keys][key]))
+            labels[keys] = QLabel(temp_string)
 
-        label = QLabel("Welcome to the admin portal")
-        LoginFailLabel = QLabel("Failed Logins")
-        LoginPassLabel = QLabel("Successful Logins")
+        label = QLabel("Welcome to the admin portal, admin: {}".format(logins['admin']))
+        LoginFailLabel = QLabel("Failed Logins: {}".format(logins['failedLogins']))
+        LoginPassLabel = QLabel("Successful Logins: {}".format(logins['successfulLogins']))
 
         # Set layout
         central_widget = QWidget()
@@ -118,6 +139,8 @@ class AdminPortalWindow(QMainWindow):
         layout.addWidget(label)
         layout.addWidget(LoginFailLabel)
         layout.addWidget(LoginPassLabel)
+        for item in labels:
+            layout.addWidget(labels[item])
         central_widget.setLayout(layout)
         self.setCentralWidget(central_widget)
 
@@ -148,7 +171,9 @@ class MainWindow(QMainWindow):
         central_widget.setLayout(layout)
         self.setCentralWidget(central_widget)
 
-        jsonFile = os.path.join(os.getcwd(),"DATA-200", "Assignments folder", "assignment1.json")
+        jsonFile = os.path.join(os.getcwd(),"DATA-200", "Assignments folder", "Assignment 1", "assignment1.json")
+        self.data = json.loads(jsonFile)
+        #print(os.path.isfile(jsonFile)) # Checking to see if file exists
 
         self.customer_window = None  # Initialize customer window as None
 
@@ -156,10 +181,10 @@ class MainWindow(QMainWindow):
         username = self.username_input.text()
         password = self.password_input.text()
         if username == "customer" and password=="12345":
-            self.customer_window = customerWindow()
+            self.customer_window = customerWindow(self.data)
             self.customer_window.show()
         elif username == "admin1" and password == "12345":
-            self.customer_window = AdminIDWindow()
+            self.customer_window = AdminIDWindow(self.data)
             self.customer_window.show()
         else:
             self.customer_window = errorWindow(text="Error!\nInvalid username/password")
@@ -168,7 +193,12 @@ class MainWindow(QMainWindow):
 # Run the application
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    #main_win = AdminPortalWindow()
+    jsonFile = os.path.join(os.getcwd(),"DATA-200", "Assignments folder", "Assignment 1", "assignment1.json")
+    data = {}
+    with open(jsonFile, 'r') as file:
+        data = json.load(file)
+        file.close()
+    #main_win = AdminPortalWindow(data, "001")
     main_win = MainWindow() #Change to login once done
     main_win.show()
     sys.exit(app.exec_())
