@@ -194,3 +194,19 @@ if __name__ == "__main__":
     main_win = app_instance.MainWindow(app_instance)
     main_win.show()
     sys.exit(app.exec_())
+
+"""
+Customer login:
+Username: customer1
+password: 12345
+
+admin 1 login:
+username: admin1
+password: 12345
+ID: 001
+
+admin 2 login:
+username: admin2
+password: 12345
+ID: 002
+"""
