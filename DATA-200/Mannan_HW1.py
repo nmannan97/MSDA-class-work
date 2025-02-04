@@ -86,11 +86,12 @@ class Assignment1:
             QMessageBox.information(self, "Success", f"You rated {selected_product} as {selected_rating} stars!")
 
     class AdminIDWindow(QMainWindow):
-        def __init__(self, parent_instance):
+        def __init__(self, parent_instance, admin_user):
             super().__init__()
             self.setWindowTitle("Admin Login")
             self.resize(400, 200)
             self.parent_instance = parent_instance  # Store reference
+            self.admin_user = admin_user
 
             self.adminid_input = QLineEdit()
             self.adminid_input.setPlaceholderText("Enter Admin ID")
@@ -107,14 +108,13 @@ class Assignment1:
         def verify_admin(self):
             admin_id = self.adminid_input.text()
             for admin, details in self.parent_instance.admins.items():
-                if details["ID"] == admin_id:
+                if details["ID"] == admin_id and admin == self.admin_user:
                     self.parent_instance.admins[admin]['successfulLogins'] += 1
                     self.admin_window = Assignment1.AdminPortalWindow(self.parent_instance, admin_id)
                     self.admin_window.show()
                     self.close()
                     return
-                else:
-                    self.parent_instance.admins[admin]['failedLogins'] += 1
+            self.parent_instance.admins[admin]['failedLogins'] += 1
             QMessageBox.warning(self, "Error", "Invalid Admin ID!")
 
     class AdminPortalWindow(QMainWindow):
@@ -186,7 +186,7 @@ class Assignment1:
                 self.customer_window = Assignment1.CustomerWindow(self.parent_instance)
                 self.customer_window.show()
             elif username in self.parent_instance.admins and password == self.parent_instance.admins[username]["password"]:
-                self.admin_id_window = Assignment1.AdminIDWindow(self.parent_instance)
+                self.admin_id_window = Assignment1.AdminIDWindow(self.parent_instance, username)
                 self.admin_id_window.show()
             else:
                 QMessageBox.warning(self, "Error", "Invalid username/password!")
