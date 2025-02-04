@@ -77,12 +77,8 @@ class Assignment1:
             selected_product = self.dropdown.currentText()
             selected_rating = self.rating_group.checkedId()  # Get selected rating
 
-            if selected_rating == -1:
-                QMessageBox.warning(self, "Error", "Please select a rating!")
-                return
-
             # Store rating
-            self.data["customer 1"]["ratings"][selected_product] = selected_rating
+            self.data["customer1"]["ratings"][selected_product] = selected_rating
             QMessageBox.information(self, "Success", f"You rated {selected_product} as {selected_rating} stars!")
 
     class AdminIDWindow(QMainWindow):
