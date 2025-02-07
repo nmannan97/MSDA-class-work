@@ -1,0 +1,33 @@
+Q What is the difference between raising an exception and handling an exception ( Explain with example)? 5 (Marks)
+
+Q What happens when an exception is raised, the code of a finally clause executes, and that code raises an exception of a different kind than the original one? Which one is caught by a surrounding clause? ( Explain with example) (5 Marks)
+
+Q  Write a program that reads each line in a file, reverses its lines, and writes them to another file. Also, print the total character count and word count on the screen.  For example, if the file file.txt contains the lines (Marks 5)
+
+Mary had a little lamb
+Its fleece was white as snow
+And everywhere that Mary went
+The lamb was sure to go.
+and you run
+
+reverse file.txt result.txt
+then result.txt contains
+
+run you and
+
+The lamb was sure to go.
+And everywhere that Mary went
+Its fleece was white as snow
+Mary had a little lamb
+
+Q4: You work for XYZ company and you need to design a purchasing power parity system based system based on countries. You can get the data from https://www.cia.gov/the-world-factbook/field/real-gdp-purchasing-power-parity/country-comparison/Links to an external site. download the file from this location. Your program must have following capabilities (5 Mark):
+
+     1) You must have caching system i.e. store the file data in memory and if someone request data for a country, you can quickly print it.
+
+      2) You must have a way to modify the data in memory and as well in file so that ranking and value can be modified. 
+
+      3) You must have function to accept the input from user to show the comparison between 2 countries which must show values and ranking
+
+      4) You must have a function to accept the input of countries and show their combined purchasing power parity
+
+       5) You must have function to delete the enteries from the file and memory and you should store the deleted data in a file called deleted_info.csv Download deleted_info.csvand if someone want to merge the data they should be able to update the memory and original file without duplicate enteries.
