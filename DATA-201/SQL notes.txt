@@ -1,0 +1,26 @@
+SQL notes
+
+DDL – Data Definition Language
+	-CREATE: creates a database or it's object
+	-DROP: Delete objects from database
+	-ALTER: Alter the structure of the database
+	-Truncate: Remove all records from the table including all spaces
+	-COMMENT:  Add comments to the data dictionary 
+	-RENAME: Rename an object existing in the database
+DQL – Data Query Language
+	-SELECT: It is used to retrieve data
+DML – Data Manipulation Language
+	-INSERT: Insert data into a table
+	-UPDATE: Update existing data within a table
+	-DELETE: Delete Records from a database table
+	-LOCK: Table control concurrency
+	-CALL: Call a PL/SQL or JAVA subprogram
+	-EXPLAIN/PLAN: Describe the access path to data
+DCL – Data Control Language
+	-GRANT: Assigns new privileges to a user account
+	-REVOKE: Removes privileges from a user account 
+TCL – Transaction Control Language
+	-BEGIN TRANSACTION: Starts a new transaction
+	-COMMIT: Saves all changes made during a transaction
+	-ROLLBACK: Undoes all changes during a transaction
+	-SAVEPOINT: Creates a save point within the current transaction
