@@ -1,4 +1,5 @@
 import pandas as pd
+import csv
 
 #Class for assignment 2
 class assignment2:
@@ -55,10 +56,50 @@ class assignment2:
             print(purchasing)
 
         def delete_data(self, *countries):
-            pass
+            output_df = pd.DataFrame()
+            for country in countries:
+                output_df = pd.concat([output_df, self.df[self.df['name'] == country]])
+                self.df = self.df[self.df['name'] != country]
+            output_df.head
+            self.df.to_csv("DATA-200\\Real GDP (purchasing power parity).csv", index=False)
+            output_df.to_csv("DATA-200\\deleted_info.csv", index=False)
+
+        def merge_files(self):
+            csv_data_output = []
+            csv_data_input = []
+            with open("DATA-200\\Real GDP (purchasing power parity).csv", 'r') as file:
+                temp = csv.reader(file)
+                for row in temp:
+                    csv_data_output.append(row)    
+                file.close()
+
+            with open("DATA-200\\deleted_info.csv", 'r') as file:
+                temp = csv.reader(file)
+                for row in temp:
+                    csv_data_input.append(row)  
+                csv_data_input = csv_data_input[1:]  
+                file.close()
+            print(csv_data_input)
+
+            while len(csv_data_input) != 0:
+                temp = csv_data_input.pop()
+                for index in range(1, len(csv_data_output)):
+                    if int(temp[4]) < int(csv_data_output[index][4]):
+                        csv_data_output.insert(index, temp)
+                        break
+                if int(temp[4]) > int(csv_data_output[len(csv_data_output)-1][4]):
+                    csv_data_output.append(temp)
+            #print(csv_data_output)
+
+            with open("DATA-200\\Real GDP (purchasing power parity).csv", 'w',  newline='') as file:   
+                writer = csv.writer(file)
+                writer.writerows(csv_data_output)
+                file.close()
 
 #assignment2().file_resvers("C:\\Users\\nmann\\OneDrive\\Desktop\\MSDA material\\MSDA-class-work\\DATA-200\\mary.txt").file_reverse() #input file herer
 
 q4 = assignment2().gdp("E:\\Masters Data Analytics\\MSDA-class-work\\DATA-200\\Real GDP (purchasing power parity).csv")
 #q4.get_data("China", "United States")
-q4.get_combined_purchasing("China", "United States","India")
+#q4.get_combined_purchasing("China", "United States","India")
+#q4.delete_data("China", "United States","India")
+q4.merge_files()
