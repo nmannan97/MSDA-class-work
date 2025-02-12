@@ -47,13 +47,12 @@ class assignment2:
             print(self.df[self.df['name'] == country1])
             print(self.df[self.df['name'] == country2])
 
-        def get_combined_purchasing(self, *countries):
+        def get_combined_purchasing(self, countries:list):
             purchasing = 0
             for items in countries:
-                temp = self.df[self.df['name'] == items]['value'].iloc[0]
-                #print(temp)
-                purchasing += int(temp.replace("$", "").replace(',', ""))
-            print(purchasing)
+                temp = self.df[self.df['name'] == items]['value'].to_string()
+                purchasing += int(temp.replace("$", "").replace(",", "").replace(" ",""))
+            print("Combined output: " + purchasing)
 
         def delete_data(self, *countries):
             output_df = pd.DataFrame()
@@ -95,11 +94,33 @@ class assignment2:
                 writer = csv.writer(file)
                 writer.writerows(csv_data_output)
                 file.close()
+        
+        def run(self):
+            run = True
+            while run:
+                command = input("type your next command\n-print data\n-combined purchasing power\n-delete countries\n-merge data\n-Exit\n")
+                if command.lower() == "print data":
+                    self.print_data()
+                elif command.lower() == "combined purchasing power":
+                    Input = []
+                    while True:
+                        country = input("Enter a country (press just enter to end): ")
+                        if country == "":
+                            break
+                        else:
+                            Input.append(country)
+                    self.get_combined_purchasing(Input)
+                elif command.lower() == "delete countries":
+                    pass
+                elif command.lower() == "merge data":
+                    pass
+                elif command.lower() == 'exit':
+                    run = False
+                else:
+                    input("No command detected, try typing it again. Press enter to continue")
 
-#assignment2().file_resvers("C:\\Users\\nmann\\OneDrive\\Desktop\\MSDA material\\MSDA-class-work\\DATA-200\\mary.txt").file_reverse() #input file herer
+            print("Thank you for running the program")
 
-q4 = assignment2().gdp("E:\\Masters Data Analytics\\MSDA-class-work\\DATA-200\\Real GDP (purchasing power parity).csv")
-#q4.get_data("China", "United States")
-#q4.get_combined_purchasing("China", "United States","India")
-#q4.delete_data("China", "United States","India")
-q4.merge_files()
+if __name__ == "__main__":
+    assignment2().gdp("E:\\Masters Data Analytics\\MSDA-class-work\\DATA-200\\Real GDP (purchasing power parity).csv").run()
+    assignment2().file_resvers("C:\\Users\\nmann\\OneDrive\\Desktop\\MSDA material\\MSDA-class-work\\DATA-200\\mary.txt").file_reverse() #input file herer
