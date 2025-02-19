@@ -1,0 +1,10 @@
+{
+    "customer1@example.com": [
+        {
+            "name": "123",
+            "category": "123",
+            "price": 123.0,
+            "stock": 10
+        }
+    ]
+}
