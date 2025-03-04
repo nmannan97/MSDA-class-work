@@ -89,17 +89,17 @@ class LinkedList:
             return
 
         c1 = self.head
+        prev_head = None
         while c1 is not None:
             if c1.data == data:
-                nn = Node(newdata)
-                nn.next = c1.next
-                c1.next = nn
+                print(prev_head)
                 return
+            prev_head = c1
             c1 = c1.next
 
     def reverse(self):
         """ This function reverse the list """
-        c1 = self.head
+        c1 = self.head  
         while c1:
             
             c1 = c1.next
