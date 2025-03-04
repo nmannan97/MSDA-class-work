@@ -20,4 +20,5 @@ Note: You must implement all the functions provided in mystack_hw.py.
 
  
 
-Q 2 [10 Marks]: Write all the details of all the functions required to implement stack/queues/dequeue. Max 1 page and submit it in PDF format.
+Q 2 [10 Marks]: Write all the details of all the functions required to implement 
+stack/queues/dequeue. Max 1 page and submit it in PDF format.
