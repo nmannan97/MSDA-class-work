@@ -1,25 +1,18 @@
-# Node class to be a part of Linked List
 class Node:
     def __init__(self, data):
         self.data = data
         self.next = None
 
-# Create a class called LinkedList
 class LinkedList:
-
     def __init__(self):
         self.head = None
 
-    # Add a node at the beginning
     def add_first(self, data):
-        """ Add First Node """
         new_node = Node(data)
         new_node.next = self.head
         self.head = new_node
 
-    # Insert at the end
     def add_last(self, data):
-        """ Add node at last position """
         if self.head is None:
             self.head = Node(data)
         else:
@@ -29,11 +22,9 @@ class LinkedList:
             c1.next = Node(data)
 
     def add_at_index(self, data, newdata):
-        """ Add node at a specific position after 'data' """
         if not self.check_head():
             print("List is empty")
             return
-
         c1 = self.head
         while c1 is not None:
             if c1.data == data:
@@ -42,23 +33,20 @@ class LinkedList:
                 c1.next = nn
                 return
             c1 = c1.next
-
         print("No data element found in linked list")
 
     def print_linked_list(self):
-        """ Print the linked list (Fixed infinite loop issue) """
         if self.check_head():
             c1 = self.head
             while c1 is not None:
                 print(c1.data, end=" -> ")
-                c1 = c1.next  # Move pointer forward
-            print("None")  # End of the list
+                c1 = c1.next
+            print("None")
 
     def check_head(self):
         return self.head is not None
-    
+
     def linked_size(self):
-        """ Get the size of linked list """
         count = 0
         c1 = self.head
         while c1:
@@ -67,42 +55,65 @@ class LinkedList:
         print("The linked list size is", count)
 
     def delete_node(self, data):
-        """ delete the linked linked list node """
-        pass
+        if not self.check_head():
+            print("List is empty")
+            return
+        if self.head.data == data:
+            self.head = self.head.next
+            return
+        c1 = self.head
+        while c1.next is not None:
+            if c1.next.data == data:
+                c1.next = c1.next.next
+                return
+            c1 = c1.next
+        print("Node with value", data, "not found.")
 
     def delete_first_node(self):
-        """ delete the linked linked list first node """
         if not self.check_head():
             print("List is empty")
             return
-        self.head = self.head.next  # Move head to the next node
-
+        self.head = self.head.next
 
     def delete_last_node(self):
-        """ delete the linked linked list last node """
-        pass
-
-    def delete_at_index(self,data):
-        """ delete the linked linked list node """
         if not self.check_head():
             print("List is empty")
             return
+        if self.head.next is None:
+            self.head = None
+            return
+        c1 = self.head
+        while c1.next.next is not None:
+            c1 = c1.next
+        c1.next = None
 
+    def delete_at_index(self, data):
+        if not self.check_head():
+            print("List is empty")
+            return
         c1 = self.head
         prev_head = None
         while c1 is not None:
             if c1.data == data:
-                print(prev_head)
+                if prev_head is None:
+                    self.head = c1.next
+                else:
+                    prev_head.next = c1.next
                 return
             prev_head = c1
             c1 = c1.next
+        print("Node with value", data, "not found.")
 
     def reverse(self):
-        """ This function reverse the list """
-        c1 = self.head  
-        while c1:
-            
-            c1 = c1.next
+        prev = None
+        current = self.head
+        while current is not None:
+            next_node = current.next
+            current.next = prev
+            prev = current
+            current = next_node
+        self.head = prev
+
 
 def linkedList() -> None:
     ll=LinkedList()
@@ -130,7 +141,7 @@ def linkedList2() -> None:
     print("\nLinked List")
     ll.print_linked_list()
 
-    ll.delete_at_index(8)
+    ll.reverse()
     print("\nLinked List 2")
     ll.print_linked_list()
 
