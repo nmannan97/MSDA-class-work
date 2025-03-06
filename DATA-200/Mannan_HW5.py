@@ -1,8 +1,10 @@
+# Node class to be a part of Linked List
 class Node:
     def __init__(self, data):
         self.data = data
         self.next = None
 
+# Create a class called LinkedList
 class LinkedList:
     def __init__(self):
         self.head = None
@@ -146,5 +148,5 @@ def linkedList2() -> None:
     ll.print_linked_list()
 
 if __name__ == "__main__":
-    #linkedList()
+    linkedList()
     linkedList2()
