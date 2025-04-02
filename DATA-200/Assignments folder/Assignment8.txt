@@ -1,0 +1,5 @@
+Q1: Write the python code for quick sort and submit it with the  following array:
+
+23, 6, 4, -1, 0, 12, 8, 3, 1
+
+Q2: Complete the BST for insertion/deletion/searching. You and use the template I uploaded in files.
