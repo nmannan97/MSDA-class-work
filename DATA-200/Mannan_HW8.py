@@ -150,5 +150,5 @@ if __name__ == "__main__":
     print(" ")
 
     Sort = quickSort()
-
+    print("Input of quick srt:", Sort.array)
     print("output quick sort: ", Sort.sort(Sort.array))
