@@ -1,21 +1,21 @@
-import tkinter
 import csv
-import selenium
 import matplotlib.pyplot as plt
 import os
 import time
+import urllib3
 
 from bs4 import BeautifulSoup as bs4
+from flask import Flask
 
-class gui():
+# instance of flask application
+app = Flask(__name__)
 
-    def __init__():
-        pass
+# home route that returns below text when root url is accessed
+@app.route("/")
+def hello_world():
+    http = urllib3.PoolManager()
+    resp = http.request("GET", "")
+    return "<p>Hello, World!</p>"
 
-class work():
-    
-    def __init__():
-        pass
-    
-if __name__ == "__main__":
-    pass
+if __name__ == '__main__':  
+   app.run()  
