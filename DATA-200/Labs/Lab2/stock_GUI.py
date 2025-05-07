@@ -13,13 +13,13 @@ from utilities import clear_screen, display_stock_chart, sortStocks, sortDailyDa
 class StockApp:
     def __init__(self):
         self.stock_list = []
-
-        if not path.exists("stocks.db"):
+        # Check for database, create if not exists
+        if path.exists("stocks.db") == False:
             stock_data.create_database()
 
         # Create Window
         self.root = Tk()
-        self.root.title("Stock Manager")
+        self.root.title("MyName Stock Manager")  # Replace with your name
 
         # ------------------ MENUBAR ------------------
         self.menubar = Menu(self.root)
@@ -35,7 +35,7 @@ class StockApp:
         # Web Menu
         webMenu = Menu(self.menubar, tearoff=0)
         webMenu.add_command(label="Import CSV Data", command=self.importCSV_web_data)
-        webMenu.add_command(label="Scrape Web Data", command=self.scrape_web_data)
+        webMenu.add_command(label="Get Web Data", command=self.scrape_web_data)
         self.menubar.add_cascade(label="Web", menu=webMenu)
 
         # Chart Menu
@@ -43,6 +43,7 @@ class StockApp:
         chartMenu.add_command(label="Display Chart", command=self.display_chart)
         self.menubar.add_cascade(label="Chart", menu=chartMenu)
 
+        # Apply menus to window
         self.root.config(menu=self.menubar)
 
         # ------------------ HEADING ------------------
@@ -104,6 +105,10 @@ class StockApp:
         # Start Main Loop
         self.root.mainloop()
 
+
+# This section provides the functionality
+       
+    # Load stocks and history from database.
     def load(self):
         self.stockList.delete(0,END)
         stock_data.load_stock_data(self.stock_list)
@@ -112,13 +117,16 @@ class StockApp:
             self.stockList.insert(END,stock.symbol)
         messagebox.showinfo("Load Data","Data Loaded")
 
+    # Save stocks and history to database.
     def save(self):
         stock_data.save_stock_data(self.stock_list)
         messagebox.showinfo("Save Data","Data Saved")
 
+    # Refresh history and report tabs
     def update_data(self, evt):
         self.display_stock_data()
 
+    # Display stock price and volume history.
     def display_stock_data(self):
         symbol = self.stockList.get(self.stockList.curselection())
         for stock in self.stock_list:
@@ -128,18 +136,22 @@ class StockApp:
                 self.stockReport.delete("1.0",END)
                 self.dailyDataList.insert(END,"- Date -   - Price -   - Volume -\n")
                 self.dailyDataList.insert(END,"=================================\n")
-                for daily_data in stock.dataList:
+                for daily_data in stock.DataList:
                     row = daily_data.date.strftime("%m/%d/%y") + "   " +  '${:0,.2f}'.format(daily_data.close) + "   " + str(daily_data.volume) + "\n"
                     self.dailyDataList.insert(END,row)
 
+                #display report
+
+    # Add new stock to track.
     def add_stock(self):
-        new_stock = Stock(self.addSymbolEntry.get(), self.addNameEntry.get(), float(str(self.addSharesEntry.get())))
+        new_stock = Stock(self.addSymbolEntry.get(),self.addNameEntry.get(),float(str(self.addSharesEntry.get())))
         self.stock_list.append(new_stock)
-        self.stockList.insert(END, self.addSymbolEntry.get())
+        self.stockList.insert(END,self.addSymbolEntry.get())
         self.addSymbolEntry.delete(0,END)
         self.addNameEntry.delete(0,END)
         self.addSharesEntry.delete(0,END)
 
+    # Buy shares of stock.
     def buy_shares(self):
         symbol = self.stockList.get(self.stockList.curselection())
         for stock in self.stock_list:
@@ -149,6 +161,7 @@ class StockApp:
         messagebox.showinfo("Buy Shares","Shares Purchased")
         self.updateSharesEntry.delete(0,END)
 
+    # Sell shares of stock.
     def sell_shares(self):
         symbol = self.stockList.get(self.stockList.curselection())
         for stock in self.stock_list:
@@ -158,45 +171,46 @@ class StockApp:
         messagebox.showinfo("Sell Shares","Shares Sold")
         self.updateSharesEntry.delete(0,END)
 
+    # Remove stock and all history from being tracked.
     def delete_stock(self):
-        try:
-            symbol = self.stockList.get(self.stockList.curselection())
-            for i, stock in enumerate(self.stock_list):
-                if stock.symbol == symbol:
-                    del self.stock_list[i]
-                    break
-            self.stockList.delete(ANCHOR)
-            self.headingLabel.config(text="Stock Deleted")
-            self.dailyDataList.delete("1.0", END)
-            self.stockReport.delete("1.0", END)
-        except:
-            messagebox.showerror("Delete Failed", "Please select a stock first.")
+       pass
 
+    # Get data from web scraping.
     def scrape_web_data(self):
-        dateFrom = simpledialog.askstring("Starting Date","Enter Starting Date (m/d/yy)")
-        dateTo = simpledialog.askstring("Ending Date","Enter Ending Date (m/d/yy)")
+        dateFrom = simpledialog.askstring("Starting Date", "Enter Starting Date (m/d/yy)")
+        dateTo = simpledialog.askstring("Ending Date", "Enter Ending Date (m/d/yy)")  # ✅ fixed the missing parenthesis
+
         try:
             stock_data.retrieve_stock_web(dateFrom, dateTo, self.stock_list)
-        except:
-            messagebox.showerror("Cannot Get Data from Web","Check Path for Chrome Driver")
+        except Exception as e:
+            import traceback
+            print("DEBUG: Failed to fetch stock data")
+            traceback.print_exc()
+            messagebox.showerror("Cannot Get Data from Web", f"Error:\n{e}")
             return
-        self.display_stock_data()
-        messagebox.showinfo("Get Data From Web","Data Retrieved")
 
+        self.display_stock_data()
+        messagebox.showinfo("Get Data From Web", "Data Retrieved")
+
+    # Import CSV stock history file.
     def importCSV_web_data(self):
         symbol = self.stockList.get(self.stockList.curselection())
-        filename = filedialog.askopenfilename(title="Select " + symbol + " File to Import", filetypes=[('Yahoo Finance! CSV','*.csv')])
+        filename = filedialog.askopenfilename(title="Select " + symbol + " File to Import",filetypes=[('Yahoo Finance! CSV','*.csv')])
         if filename != "":
-            stock_data.import_stock_web_csv(self.stock_list, symbol, filename)
+            stock_data.import_stock_web_csv(self.stock_list,symbol,filename)
             self.display_stock_data()
-            messagebox.showinfo("Import Complete", symbol + " Import Complete")   
-
+            messagebox.showinfo("Import Complete",symbol + "Import Complete")   
+    
+    # Display stock price chart.
     def display_chart(self):
         symbol = self.stockList.get(self.stockList.curselection())
-        display_stock_chart(self.stock_list, symbol)
+        display_stock_chart(self.stock_list,symbol)
+
 
 def main():
-    app = StockApp()
+        app = StockApp()
+        
 
 if __name__ == "__main__":
+    # execute only if run as a script
     main()
