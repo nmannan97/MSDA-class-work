@@ -11,7 +11,7 @@ class regex():
     Given a string that contains multiple dates in the format MM/DD/YYYY, extract all the valid dates in self.text
     """
     def date_extract(self):
-        return_value = re.findall(r".[0-9]//.[0-9]*//.[0-9]*", self.text)
+        return_value = re.findall(r"\b\d{2}/\d{2}/\d{4}\b", self.text)
         return return_value
 
 
@@ -19,8 +19,11 @@ class regex():
     Given a list of email addresses, replace the domain with ***.com.
     """
     def email_thing(self):
-        pass
-
+        return_value = []
+        for email in self.emails:
+            masked = re.sub(r"@[\w.-]+\.com", r"@***.com", email)
+            return_value.append(masked)
+        return return_value
 
     """
     Write a regex pattern that matches passwords that:
@@ -35,4 +38,4 @@ class regex():
 
 
 if __name__ == "__main__":
-    print(regex().date_extract())
+    print(regex().email_thing())

@@ -1,10 +1,7 @@
 # Summary: This module contains the functions used by both console and GUI programs to manage stock data.
 
-from selenium.webdriver.chrome.service import Service
 import sqlite3
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.chrome.options import Options
+import urllib3
 from bs4 import BeautifulSoup
 import re
 import pandas as pd
@@ -15,6 +12,7 @@ from datetime import datetime
 from utilities import clear_screen
 from utilities import sortDailyData
 from stock_class import Stock, DailyData
+import yfinance as yf
 
 # Create the SQLite database
 def create_database():
@@ -56,7 +54,7 @@ def save_stock_data(stock_list):
             cur.execute("COMMIT;")
         except:
             pass
-        for daily_data in stock.DataList: 
+        for daily_data in stock.dataList: 
             insertValues = (stock.symbol,daily_data.date.strftime("%m/%d/%y"),daily_data.close,daily_data.volume)
             try:
                 cur.execute(insertDailyDataCmd, insertValues)
@@ -89,60 +87,43 @@ def load_stock_data(stock_list):
         stock_list.append(new_stock)
     sortDailyData(stock_list)
 
-# Get stock price history from web using Web Scraping
+# Get stock price history from web using urllib3 + BeautifulSoup
 
 def retrieve_stock_web(dateStart, dateEnd, stock_list):
-    print("DEBUG: attempting to parse date string:", rowList[0])
-    dateFrom = str(int(time.mktime(time.strptime(dateStart, "%m/%d/%y"))))
-    dateTo = str(int(time.mktime(time.strptime(dateEnd, "%m/%d/%y"))))
     recordCount = 0
 
+    # Parse date strings
+    try:
+        start_date = datetime.strptime(dateStart, "%m/%d/%Y")
+        end_date = datetime.strptime(dateEnd, "%m/%d/%Y")
+    except ValueError:
+        print("Invalid date format. Please use MM/DD/YYYY.")
+        return recordCount
+
     for stock in stock_list:
-        stockSymbol = stock.symbol
-        url = f"https://finance.yahoo.com/quote/{stockSymbol}/history?period1={dateFrom}&period2={dateTo}&interval=1d&filter=history&frequency=1d"
-
-        options = Options()
-        options.add_argument('--start-maximized')
-        options.add_experimental_option('excludeSwitches', ['enable-logging'])
-        options.add_experimental_option("prefs", {'profile.managed_default_content_settings.javascript': 2})
-
-        # ✅ Path to your Chrome binary (optional)
-        options.binary_location = "C:/Program Files/Google/Chrome/Application/chrome.exe"  # adjust this if needed
-
-        # ✅ Path to your ChromeDriver
-        chromedriver_path = "C:/Users/nmann/Desktop/MSDA folder/MSDA-class-work/DATA-200/Labs/Lab2/chromedriver.exe"
-        service = Service(chromedriver_path)
-
         try:
-            driver = webdriver.Chrome(service=service, options=options)
-            driver.implicitly_wait(10)
-            driver.get(url)
-        except Exception as e:
-            raise RuntimeError(f"Chrome Driver Not Found or Failed: {e}")
+            print(f"📡 Fetching data for {stock.symbol}...")
+            df = yf.download(stock.symbol, start=start_date, end=end_date)
 
-        soup = BeautifulSoup(driver.page_source, "html.parser")
-        row = soup.find('table', class_="W(100%) M(0)")
-        dataRows = soup.find_all('tr')
+            if df.empty:
+                print(f"⚠️ No data found for {stock.symbol}")
+                continue
 
-        for row in dataRows:
-            td = row.find_all('td')
-            rowList = [i.text for i in td]
-            if len(rowList) == 7:
+            for date, row in df.iterrows():
                 try:
-                    try:
-                        date = datetime.strptime(rowList[0], "%b %d, %Y")
-                    except ValueError as ve:
-                        print(f"DATE PARSE ERROR: {rowList[0]} → {ve}")
-                        continue  # skip this row if it doesn't match
-                    price = float(rowList[5].replace(',', ''))
-                    volume = float(rowList[6].replace(',', ''))
-                    stock.add_data(DailyData(date, price, volume))
+                    close = float(row["Close"])
+                    volume = float(row["Volume"])
+                    stock.add_data(DailyData(date, close, volume))
                     recordCount += 1
-                except:
-                    continue
-        driver.quit()
+                except Exception as row_error:
+                    print(f"⚠️ Skipping row error: {row_error}")
+
+            print(f"✅ Loaded {len(df)} records for {stock.symbol}")
+        except Exception as e:
+            print(f"❌ Failed to fetch {stock.symbol}: {e}")
 
     return recordCount
+
 
 # Get price and volume history from Yahoo! Finance using CSV import.
 def import_stock_web_csv(stock_list,symbol,filename):
