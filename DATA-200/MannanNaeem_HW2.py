@@ -145,7 +145,6 @@ class Q4:
 
 if __name__ == "__main__":
     print(hw_2().Q3())
-    # Example usage
     system = Q4("DATA-200\Files\Real GDP (purchasing power parity).csv")
     system.compare_countries("United States", "China")
     system.combine_countries(["India", "Pakistan"])
