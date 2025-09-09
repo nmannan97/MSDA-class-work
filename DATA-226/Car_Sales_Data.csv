@@ -1,0 +1,1201 @@
+cars_name,car_price,purchase_date,brand_name
+Chevrolet Silverado,35000,2024-11-15,Chevrolet
+Audi A4,35000,2024-05-08,Tesla
+Audi A4,24000,2024-01-31,BMW
+Hyundai Elantra,21000,2024-05-24,Audi
+Mercedes C-Class,45000,2024-02-28,Nissan
+Mercedes C-Class,45000,2024-12-01,Hyundai
+Audi A4,47000,2024-05-23,Chevrolet
+Mercedes C-Class,45000,2024-10-25,BMW
+Hyundai Elantra,25000,2024-10-13,Audi
+Audi A4,47000,2024-05-17,Audi
+Honda Civic,42000,2024-09-15,Nissan
+Mercedes C-Class,45000,2025-01-10,Chevrolet
+Tesla Model 3,35000,2024-08-25,Nissan
+Honda Civic,42000,2024-04-29,Tesla
+Toyota Camry,21000,2025-01-27,Nissan
+BMW 3 Series,45000,2024-08-05,Chevrolet
+Mercedes C-Class,38000,2024-04-12,Ford
+Chevrolet Silverado,47000,2024-06-17,Mercedes
+Hyundai Elantra,47000,2024-06-14,Audi
+Nissan Altima,38000,2024-02-16,Hyundai
+Tesla Model 3,50000,2024-02-05,Mercedes
+Mercedes C-Class,22000,2024-09-14,Audi
+Toyota Camry,45000,2024-05-02,BMW
+Chevrolet Silverado,38000,2024-06-14,Chevrolet
+Ford F-150,25000,2024-05-19,Hyundai
+Nissan Altima,50000,2024-12-04,Ford
+Audi A4,22000,2024-02-29,Ford
+Hyundai Elantra,38000,2024-02-24,Toyota
+BMW 3 Series,24000,2024-07-01,Ford
+Toyota Camry,24000,2024-07-25,Audi
+Mercedes C-Class,22000,2024-06-22,Nissan
+Hyundai Elantra,47000,2024-04-21,BMW
+Nissan Altima,24000,2024-06-25,Ford
+Hyundai Elantra,22000,2024-06-11,BMW
+Toyota Camry,42000,2024-07-09,Honda
+Honda Civic,45000,2024-03-09,Tesla
+Audi A4,50000,2024-11-24,Hyundai
+Hyundai Elantra,35000,2024-11-26,Nissan
+BMW 3 Series,42000,2024-11-22,Audi
+Tesla Model 3,21000,2024-08-10,Ford
+Ford F-150,25000,2024-03-14,Mercedes
+Honda Civic,24000,2024-10-25,Hyundai
+BMW 3 Series,45000,2024-07-12,Honda
+Honda Civic,45000,2024-10-16,Tesla
+Tesla Model 3,22000,2024-10-23,Mercedes
+Toyota Camry,35000,2024-11-07,Toyota
+BMW 3 Series,42000,2024-04-28,Audi
+Hyundai Elantra,25000,2024-12-31,Hyundai
+Ford F-150,38000,2024-12-26,Honda
+Nissan Altima,38000,2024-10-19,Nissan
+Ford F-150,25000,2024-06-25,Audi
+Audi A4,42000,2025-01-06,Chevrolet
+Honda Civic,22000,2024-05-26,Ford
+Nissan Altima,22000,2024-09-27,BMW
+Tesla Model 3,42000,2024-10-10,Chevrolet
+Hyundai Elantra,21000,2024-11-29,BMW
+Toyota Camry,35000,2024-04-22,Honda
+Nissan Altima,38000,2024-06-24,Audi
+Nissan Altima,38000,2024-04-14,Ford
+Tesla Model 3,22000,2024-03-24,Nissan
+Toyota Camry,50000,2024-08-14,Hyundai
+Ford F-150,21000,2024-04-23,Tesla
+Nissan Altima,45000,2024-09-26,BMW
+Hyundai Elantra,47000,2024-02-27,Tesla
+Tesla Model 3,38000,2024-08-20,Chevrolet
+Tesla Model 3,24000,2024-10-16,Honda
+Ford F-150,35000,2024-06-12,Nissan
+Audi A4,24000,2024-07-02,Mercedes
+Tesla Model 3,42000,2024-07-05,Nissan
+BMW 3 Series,21000,2024-10-18,Audi
+Honda Civic,25000,2024-10-18,Nissan
+Audi A4,42000,2024-02-13,Chevrolet
+Chevrolet Silverado,50000,2024-04-01,Honda
+BMW 3 Series,22000,2024-11-22,BMW
+Chevrolet Silverado,45000,2024-10-22,Audi
+Ford F-150,50000,2024-06-10,Tesla
+Ford F-150,35000,2024-02-13,Mercedes
+Chevrolet Silverado,47000,2024-05-17,Nissan
+Mercedes C-Class,42000,2024-04-16,Ford
+Toyota Camry,42000,2024-10-03,Tesla
+BMW 3 Series,38000,2024-05-30,Nissan
+Mercedes C-Class,50000,2024-05-13,BMW
+Chevrolet Silverado,25000,2024-12-05,Honda
+Ford F-150,47000,2024-05-22,Honda
+Nissan Altima,38000,2024-06-02,Tesla
+Nissan Altima,47000,2024-06-13,BMW
+Ford F-150,50000,2024-10-11,Honda
+Tesla Model 3,21000,2024-04-06,Audi
+Mercedes C-Class,21000,2024-12-13,Ford
+Ford F-150,25000,2024-06-17,Nissan
+Chevrolet Silverado,45000,2024-12-09,Nissan
+Chevrolet Silverado,25000,2025-01-11,Hyundai
+Nissan Altima,21000,2024-12-13,Hyundai
+BMW 3 Series,21000,2024-12-09,Audi
+Ford F-150,22000,2024-02-24,BMW
+Ford F-150,21000,2024-10-29,Honda
+Audi A4,22000,2024-09-04,Toyota
+Chevrolet Silverado,22000,2024-07-04,Audi
+Ford F-150,25000,2024-10-08,BMW
+Honda Civic,24000,2024-05-29,BMW
+Honda Civic,22000,2024-10-03,Tesla
+Tesla Model 3,21000,2024-11-30,Tesla
+Hyundai Elantra,24000,2024-12-12,Chevrolet
+BMW 3 Series,35000,2024-03-31,Honda
+Hyundai Elantra,47000,2024-12-20,Mercedes
+Ford F-150,24000,2024-11-22,Chevrolet
+Nissan Altima,45000,2024-12-26,Ford
+BMW 3 Series,45000,2024-10-02,Chevrolet
+Toyota Camry,24000,2025-01-22,Ford
+Ford F-150,45000,2024-04-10,Ford
+Honda Civic,22000,2024-10-31,BMW
+Audi A4,24000,2024-07-25,Hyundai
+Nissan Altima,25000,2024-07-06,Tesla
+Nissan Altima,47000,2024-07-02,BMW
+Audi A4,47000,2024-04-22,Audi
+Hyundai Elantra,24000,2024-05-09,Tesla
+Chevrolet Silverado,45000,2024-07-09,Tesla
+Chevrolet Silverado,35000,2024-03-07,Toyota
+Nissan Altima,22000,2024-11-19,Toyota
+Hyundai Elantra,42000,2024-06-13,Ford
+Toyota Camry,22000,2024-06-06,Chevrolet
+Toyota Camry,38000,2024-08-29,Ford
+Mercedes C-Class,35000,2024-02-17,Hyundai
+BMW 3 Series,25000,2024-11-30,Nissan
+Mercedes C-Class,35000,2024-02-05,Honda
+Toyota Camry,45000,2025-01-01,Hyundai
+Hyundai Elantra,42000,2024-09-17,Toyota
+BMW 3 Series,24000,2024-09-01,BMW
+Chevrolet Silverado,47000,2024-04-14,Mercedes
+Honda Civic,47000,2024-06-18,Nissan
+Tesla Model 3,24000,2024-06-25,BMW
+BMW 3 Series,45000,2024-12-04,Honda
+Chevrolet Silverado,47000,2024-07-14,Ford
+Nissan Altima,42000,2024-07-12,Ford
+Tesla Model 3,38000,2024-09-01,Hyundai
+Toyota Camry,25000,2024-05-27,Honda
+Mercedes C-Class,45000,2024-04-20,Ford
+Honda Civic,35000,2025-01-10,Ford
+Chevrolet Silverado,21000,2024-07-19,Tesla
+Nissan Altima,47000,2024-04-04,Hyundai
+Toyota Camry,50000,2024-08-11,Hyundai
+BMW 3 Series,25000,2024-11-14,Ford
+Ford F-150,25000,2024-04-03,Nissan
+Chevrolet Silverado,25000,2024-10-09,Chevrolet
+Audi A4,38000,2025-01-30,Audi
+Honda Civic,24000,2024-06-26,Chevrolet
+Mercedes C-Class,24000,2024-05-21,Audi
+Mercedes C-Class,42000,2024-08-23,Hyundai
+Toyota Camry,35000,2024-12-31,Hyundai
+Honda Civic,38000,2024-10-25,Toyota
+Toyota Camry,21000,2024-10-03,Ford
+Tesla Model 3,50000,2024-11-26,Audi
+Hyundai Elantra,47000,2024-07-28,Mercedes
+BMW 3 Series,50000,2024-09-08,BMW
+Honda Civic,21000,2024-05-23,Tesla
+Tesla Model 3,42000,2024-12-30,Hyundai
+Hyundai Elantra,24000,2024-06-21,Tesla
+Chevrolet Silverado,24000,2024-05-13,Honda
+Honda Civic,38000,2024-08-20,Ford
+Chevrolet Silverado,22000,2024-12-23,BMW
+Honda Civic,50000,2025-01-11,Audi
+Honda Civic,24000,2024-11-14,Ford
+Tesla Model 3,45000,2024-09-10,Honda
+Honda Civic,22000,2024-06-29,Mercedes
+Hyundai Elantra,42000,2024-02-07,Mercedes
+BMW 3 Series,25000,2024-03-22,Nissan
+Ford F-150,47000,2024-05-23,Chevrolet
+Chevrolet Silverado,42000,2024-08-05,Ford
+Toyota Camry,25000,2024-09-16,Tesla
+Audi A4,45000,2024-09-15,Hyundai
+Ford F-150,25000,2024-10-31,Chevrolet
+Mercedes C-Class,42000,2024-04-22,Honda
+Ford F-150,47000,2024-02-20,Tesla
+BMW 3 Series,38000,2024-11-14,Hyundai
+BMW 3 Series,35000,2024-09-21,Mercedes
+BMW 3 Series,47000,2024-10-26,BMW
+Mercedes C-Class,21000,2024-04-13,Chevrolet
+Ford F-150,47000,2024-07-28,Hyundai
+Mercedes C-Class,50000,2025-01-15,Tesla
+Nissan Altima,47000,2024-11-05,Ford
+Hyundai Elantra,47000,2024-04-07,Audi
+Tesla Model 3,35000,2024-04-19,Audi
+Chevrolet Silverado,38000,2024-04-19,Chevrolet
+Chevrolet Silverado,50000,2024-04-17,Tesla
+BMW 3 Series,22000,2024-05-28,Tesla
+Mercedes C-Class,35000,2024-05-15,Toyota
+Audi A4,21000,2024-11-29,Toyota
+Tesla Model 3,22000,2024-04-17,Audi
+Chevrolet Silverado,38000,2024-02-25,Mercedes
+Mercedes C-Class,25000,2024-02-29,Toyota
+Nissan Altima,45000,2024-11-11,Hyundai
+Ford F-150,24000,2024-11-02,Chevrolet
+Toyota Camry,22000,2025-01-24,BMW
+Nissan Altima,25000,2024-09-04,Chevrolet
+Hyundai Elantra,21000,2024-11-20,Mercedes
+Tesla Model 3,25000,2024-05-25,Ford
+Toyota Camry,45000,2024-11-08,Nissan
+Audi A4,22000,2024-03-22,Ford
+Honda Civic,24000,2024-09-14,Chevrolet
+Tesla Model 3,22000,2024-10-10,Audi
+Hyundai Elantra,25000,2024-09-18,Nissan
+Ford F-150,47000,2024-09-20,Toyota
+Audi A4,24000,2024-03-25,Tesla
+Chevrolet Silverado,47000,2024-02-28,Hyundai
+BMW 3 Series,47000,2024-08-19,Tesla
+Toyota Camry,47000,2024-06-05,Chevrolet
+Chevrolet Silverado,47000,2024-12-24,BMW
+Nissan Altima,38000,2024-07-08,BMW
+Ford F-150,45000,2024-12-08,Ford
+Tesla Model 3,22000,2024-07-19,Ford
+Toyota Camry,50000,2024-03-01,Mercedes
+BMW 3 Series,24000,2024-04-21,Mercedes
+Hyundai Elantra,45000,2024-03-19,Mercedes
+Nissan Altima,45000,2024-10-12,Audi
+Ford F-150,42000,2024-11-18,Hyundai
+Mercedes C-Class,38000,2024-11-06,Chevrolet
+Audi A4,25000,2024-06-07,Ford
+Chevrolet Silverado,24000,2025-01-11,Mercedes
+Toyota Camry,38000,2024-07-18,Nissan
+Tesla Model 3,42000,2024-12-14,Toyota
+Honda Civic,38000,2024-03-01,Tesla
+BMW 3 Series,22000,2024-05-11,BMW
+BMW 3 Series,47000,2024-06-18,Nissan
+Hyundai Elantra,22000,2024-12-06,Hyundai
+Ford F-150,25000,2024-04-30,Hyundai
+Tesla Model 3,45000,2024-03-23,Mercedes
+Mercedes C-Class,25000,2024-02-05,Honda
+BMW 3 Series,50000,2024-03-16,Audi
+Honda Civic,25000,2024-12-21,Chevrolet
+Ford F-150,42000,2024-11-06,Nissan
+Mercedes C-Class,47000,2024-11-13,Honda
+Chevrolet Silverado,21000,2024-12-13,Ford
+Toyota Camry,47000,2025-01-01,Tesla
+BMW 3 Series,47000,2024-03-19,Audi
+Tesla Model 3,35000,2024-09-23,Mercedes
+Toyota Camry,22000,2024-04-10,Tesla
+Chevrolet Silverado,38000,2024-08-14,Chevrolet
+Ford F-150,25000,2024-08-14,Ford
+Ford F-150,25000,2024-12-24,Nissan
+BMW 3 Series,45000,2024-10-30,Nissan
+Mercedes C-Class,24000,2024-11-03,Chevrolet
+Honda Civic,22000,2024-06-14,BMW
+Toyota Camry,21000,2024-09-03,Audi
+Ford F-150,24000,2024-05-03,Honda
+Toyota Camry,35000,2025-01-11,Hyundai
+Honda Civic,45000,2025-01-27,Tesla
+Ford F-150,35000,2024-04-05,Chevrolet
+Chevrolet Silverado,35000,2024-04-21,Honda
+Chevrolet Silverado,45000,2024-10-19,Nissan
+Mercedes C-Class,42000,2024-07-17,BMW
+Audi A4,47000,2024-04-10,Mercedes
+Mercedes C-Class,47000,2025-01-26,Tesla
+BMW 3 Series,47000,2024-11-17,Hyundai
+Audi A4,42000,2024-09-23,Mercedes
+Hyundai Elantra,47000,2024-05-08,Toyota
+Tesla Model 3,25000,2024-11-17,BMW
+Hyundai Elantra,25000,2024-12-17,Chevrolet
+Chevrolet Silverado,50000,2024-09-25,BMW
+Toyota Camry,50000,2024-10-26,Ford
+Chevrolet Silverado,42000,2024-12-06,Mercedes
+Nissan Altima,42000,2024-10-02,BMW
+Hyundai Elantra,50000,2024-05-17,Ford
+Hyundai Elantra,35000,2024-04-30,Tesla
+Honda Civic,45000,2024-03-08,Hyundai
+Ford F-150,45000,2024-03-24,Ford
+Mercedes C-Class,50000,2024-04-26,Mercedes
+Mercedes C-Class,47000,2025-01-28,Mercedes
+Honda Civic,47000,2024-08-01,Tesla
+Mercedes C-Class,42000,2024-10-22,Audi
+Chevrolet Silverado,47000,2024-06-25,Toyota
+Nissan Altima,42000,2024-10-31,Ford
+Toyota Camry,24000,2025-01-16,Hyundai
+Toyota Camry,22000,2024-09-25,Ford
+Honda Civic,22000,2024-11-10,Mercedes
+Audi A4,47000,2024-11-12,Mercedes
+BMW 3 Series,25000,2024-04-18,Mercedes
+Honda Civic,21000,2024-03-20,BMW
+Tesla Model 3,50000,2024-05-15,Chevrolet
+Tesla Model 3,35000,2024-08-15,Chevrolet
+Mercedes C-Class,47000,2024-11-24,Mercedes
+Tesla Model 3,42000,2024-02-12,Ford
+BMW 3 Series,25000,2024-03-20,Ford
+Honda Civic,50000,2025-01-03,Toyota
+Mercedes C-Class,24000,2024-08-11,Audi
+Audi A4,42000,2024-09-23,Honda
+Nissan Altima,50000,2025-01-24,Chevrolet
+Chevrolet Silverado,47000,2024-05-11,Audi
+Ford F-150,42000,2024-03-14,Toyota
+Toyota Camry,35000,2024-08-13,Ford
+Audi A4,21000,2024-09-29,Honda
+Audi A4,50000,2024-10-26,Ford
+Toyota Camry,25000,2024-06-22,Chevrolet
+Tesla Model 3,50000,2024-05-23,BMW
+Hyundai Elantra,21000,2024-06-22,Audi
+BMW 3 Series,50000,2024-05-27,BMW
+Audi A4,42000,2024-08-01,Mercedes
+Tesla Model 3,42000,2024-04-28,Mercedes
+Chevrolet Silverado,42000,2024-04-18,BMW
+Chevrolet Silverado,21000,2024-04-04,BMW
+Nissan Altima,42000,2024-04-07,Mercedes
+Audi A4,47000,2024-09-09,Nissan
+Tesla Model 3,22000,2025-01-22,Hyundai
+Mercedes C-Class,50000,2024-08-31,Chevrolet
+Audi A4,42000,2024-08-28,Chevrolet
+Ford F-150,47000,2024-03-28,Ford
+Honda Civic,42000,2024-08-28,Chevrolet
+Honda Civic,25000,2024-05-14,Audi
+Hyundai Elantra,24000,2024-11-26,Mercedes
+Nissan Altima,24000,2024-03-27,Mercedes
+BMW 3 Series,38000,2024-10-13,Honda
+Audi A4,50000,2024-06-16,Toyota
+Honda Civic,22000,2025-01-15,Toyota
+Hyundai Elantra,25000,2024-03-10,Toyota
+Honda Civic,24000,2024-07-20,Hyundai
+Hyundai Elantra,45000,2024-07-23,Nissan
+Toyota Camry,47000,2024-02-28,Toyota
+Audi A4,25000,2024-07-18,Honda
+BMW 3 Series,22000,2024-08-17,Tesla
+BMW 3 Series,25000,2024-06-17,BMW
+Ford F-150,42000,2024-07-27,Ford
+Chevrolet Silverado,50000,2024-03-14,Tesla
+Audi A4,50000,2024-07-12,Tesla
+Toyota Camry,38000,2024-09-21,Mercedes
+Toyota Camry,21000,2024-04-13,Nissan
+Ford F-150,47000,2024-12-12,Toyota
+Chevrolet Silverado,35000,2024-07-21,Honda
+Mercedes C-Class,47000,2025-01-06,Hyundai
+BMW 3 Series,24000,2024-09-03,Chevrolet
+Chevrolet Silverado,22000,2024-12-22,Nissan
+Toyota Camry,38000,2024-11-20,Audi
+Toyota Camry,35000,2024-06-12,Chevrolet
+Tesla Model 3,38000,2024-07-01,Nissan
+Chevrolet Silverado,42000,2024-08-27,Tesla
+Chevrolet Silverado,42000,2024-09-13,Audi
+BMW 3 Series,24000,2024-07-30,Toyota
+Nissan Altima,21000,2024-12-04,Honda
+Honda Civic,24000,2024-02-03,Tesla
+Mercedes C-Class,24000,2024-10-26,Ford
+Mercedes C-Class,21000,2024-11-04,Hyundai
+Mercedes C-Class,47000,2024-03-02,Honda
+Tesla Model 3,45000,2024-04-30,Audi
+Audi A4,47000,2024-09-11,Audi
+Chevrolet Silverado,42000,2024-07-05,BMW
+Hyundai Elantra,35000,2024-10-08,Nissan
+Mercedes C-Class,42000,2024-04-13,Honda
+Audi A4,21000,2024-08-23,Chevrolet
+Hyundai Elantra,21000,2024-10-07,Audi
+Ford F-150,25000,2024-07-14,Chevrolet
+Chevrolet Silverado,24000,2024-05-12,Chevrolet
+Audi A4,22000,2024-12-31,Nissan
+Mercedes C-Class,50000,2024-12-14,Audi
+Chevrolet Silverado,38000,2024-03-24,Toyota
+Tesla Model 3,47000,2024-11-12,Ford
+Nissan Altima,35000,2024-03-15,Audi
+Honda Civic,24000,2024-09-27,Chevrolet
+Honda Civic,24000,2024-03-14,Chevrolet
+Mercedes C-Class,45000,2024-03-20,Toyota
+Honda Civic,35000,2024-10-12,Nissan
+Ford F-150,24000,2025-01-03,Ford
+Tesla Model 3,24000,2024-03-17,BMW
+Honda Civic,45000,2024-09-30,Hyundai
+Toyota Camry,22000,2024-07-18,Chevrolet
+Hyundai Elantra,35000,2024-09-01,BMW
+Ford F-150,38000,2025-01-15,Toyota
+Mercedes C-Class,38000,2024-03-09,Toyota
+Toyota Camry,25000,2024-06-16,Mercedes
+Hyundai Elantra,50000,2024-08-13,BMW
+Mercedes C-Class,50000,2024-09-16,Tesla
+Hyundai Elantra,45000,2024-01-31,Mercedes
+Audi A4,42000,2024-10-07,Mercedes
+Mercedes C-Class,45000,2024-11-24,Tesla
+Nissan Altima,22000,2024-11-13,Honda
+Chevrolet Silverado,35000,2024-06-29,Hyundai
+Tesla Model 3,42000,2024-09-19,Nissan
+Nissan Altima,22000,2024-04-09,Mercedes
+Toyota Camry,25000,2024-02-16,Ford
+Mercedes C-Class,22000,2024-11-14,Mercedes
+Audi A4,38000,2024-08-18,Ford
+Hyundai Elantra,42000,2024-09-09,Chevrolet
+Ford F-150,38000,2024-09-16,Chevrolet
+Toyota Camry,42000,2024-11-03,Ford
+Audi A4,45000,2024-09-09,Tesla
+Toyota Camry,38000,2024-06-30,BMW
+Nissan Altima,47000,2025-01-26,BMW
+Tesla Model 3,45000,2024-08-20,Ford
+Audi A4,50000,2024-05-31,Nissan
+Mercedes C-Class,38000,2024-02-26,BMW
+Nissan Altima,24000,2024-05-22,Toyota
+Audi A4,45000,2024-11-06,Nissan
+Toyota Camry,47000,2024-07-14,Tesla
+Nissan Altima,45000,2024-10-01,Honda
+Toyota Camry,42000,2024-06-25,Ford
+BMW 3 Series,21000,2024-09-27,BMW
+Audi A4,50000,2024-12-14,Chevrolet
+Chevrolet Silverado,35000,2024-03-22,Nissan
+Mercedes C-Class,21000,2024-03-19,Mercedes
+Toyota Camry,22000,2024-03-07,Chevrolet
+Audi A4,45000,2025-01-23,Nissan
+Chevrolet Silverado,50000,2024-12-13,Honda
+Mercedes C-Class,38000,2024-12-30,Mercedes
+Mercedes C-Class,35000,2024-06-18,Audi
+Chevrolet Silverado,35000,2024-02-21,Ford
+BMW 3 Series,25000,2024-04-06,Chevrolet
+Hyundai Elantra,50000,2024-07-11,Honda
+Mercedes C-Class,47000,2024-11-16,Toyota
+Tesla Model 3,35000,2024-04-23,BMW
+Nissan Altima,24000,2024-02-18,Ford
+Tesla Model 3,42000,2024-05-25,Audi
+Mercedes C-Class,35000,2024-10-06,Tesla
+Mercedes C-Class,45000,2024-12-28,Tesla
+Audi A4,45000,2024-05-18,Tesla
+Mercedes C-Class,25000,2024-06-29,BMW
+Mercedes C-Class,38000,2024-05-13,Ford
+Honda Civic,42000,2024-10-05,Toyota
+Nissan Altima,25000,2024-09-12,Chevrolet
+Mercedes C-Class,25000,2024-06-08,Honda
+Mercedes C-Class,24000,2025-01-09,BMW
+Honda Civic,47000,2024-02-27,Hyundai
+Nissan Altima,38000,2024-02-06,BMW
+Tesla Model 3,50000,2024-12-21,Audi
+Nissan Altima,25000,2024-05-15,Chevrolet
+BMW 3 Series,42000,2024-02-14,Hyundai
+Chevrolet Silverado,42000,2025-01-20,Chevrolet
+Ford F-150,24000,2024-05-26,Toyota
+Toyota Camry,21000,2024-06-14,Hyundai
+Hyundai Elantra,45000,2024-10-16,Honda
+Nissan Altima,22000,2024-02-08,Audi
+Mercedes C-Class,22000,2024-05-07,Tesla
+Mercedes C-Class,38000,2024-11-23,Chevrolet
+Mercedes C-Class,38000,2024-02-12,Tesla
+Nissan Altima,47000,2024-07-11,Nissan
+Mercedes C-Class,35000,2024-06-30,Ford
+Mercedes C-Class,24000,2024-12-05,Chevrolet
+Chevrolet Silverado,22000,2024-04-06,Honda
+Hyundai Elantra,21000,2024-07-27,Nissan
+Hyundai Elantra,47000,2024-07-26,Hyundai
+BMW 3 Series,25000,2024-06-25,Honda
+Toyota Camry,24000,2025-01-12,Mercedes
+Mercedes C-Class,42000,2024-04-29,Toyota
+Toyota Camry,21000,2024-02-29,Chevrolet
+Hyundai Elantra,38000,2024-09-10,Mercedes
+Chevrolet Silverado,42000,2024-06-20,Chevrolet
+Nissan Altima,22000,2024-08-26,Hyundai
+Tesla Model 3,24000,2024-08-04,Ford
+Nissan Altima,35000,2024-07-10,Mercedes
+Ford F-150,45000,2024-12-22,Honda
+Chevrolet Silverado,25000,2024-08-01,Nissan
+Audi A4,25000,2024-11-01,Mercedes
+Chevrolet Silverado,45000,2024-07-27,Toyota
+Tesla Model 3,50000,2024-04-28,Hyundai
+Ford F-150,45000,2024-06-28,Toyota
+Chevrolet Silverado,25000,2025-01-09,Ford
+Ford F-150,22000,2024-07-03,Chevrolet
+BMW 3 Series,21000,2024-10-08,Mercedes
+Nissan Altima,24000,2024-03-25,Ford
+BMW 3 Series,42000,2024-09-24,Nissan
+BMW 3 Series,38000,2024-04-05,Audi
+Ford F-150,21000,2024-02-21,Chevrolet
+Chevrolet Silverado,25000,2024-04-02,Audi
+BMW 3 Series,24000,2024-06-25,Mercedes
+Chevrolet Silverado,21000,2024-03-14,Tesla
+Hyundai Elantra,38000,2024-08-22,Chevrolet
+Toyota Camry,21000,2024-12-19,Chevrolet
+Audi A4,22000,2024-05-13,Ford
+Ford F-150,22000,2024-08-26,Hyundai
+Ford F-150,21000,2024-05-09,Audi
+BMW 3 Series,45000,2024-12-03,Chevrolet
+Tesla Model 3,35000,2024-03-31,Tesla
+Hyundai Elantra,38000,2024-04-23,BMW
+Hyundai Elantra,22000,2024-08-06,Honda
+Toyota Camry,42000,2024-04-07,BMW
+Audi A4,35000,2024-05-24,Hyundai
+Hyundai Elantra,50000,2024-08-16,Honda
+Tesla Model 3,35000,2024-07-20,Tesla
+Hyundai Elantra,50000,2024-10-01,Nissan
+BMW 3 Series,24000,2024-09-17,Toyota
+Hyundai Elantra,21000,2024-03-24,Hyundai
+Chevrolet Silverado,35000,2024-04-20,BMW
+Tesla Model 3,38000,2024-10-12,Hyundai
+Toyota Camry,42000,2024-08-31,Tesla
+Audi A4,45000,2025-01-25,Hyundai
+Chevrolet Silverado,38000,2024-09-10,Honda
+Mercedes C-Class,21000,2024-09-05,Chevrolet
+Ford F-150,45000,2024-10-09,Chevrolet
+Audi A4,47000,2024-12-24,Chevrolet
+Tesla Model 3,25000,2024-05-26,Nissan
+Audi A4,50000,2024-08-05,Hyundai
+Mercedes C-Class,25000,2024-05-11,Tesla
+Tesla Model 3,47000,2024-02-29,Toyota
+Tesla Model 3,22000,2024-06-16,Tesla
+Nissan Altima,45000,2024-10-07,BMW
+Audi A4,42000,2025-01-20,Nissan
+Hyundai Elantra,22000,2024-09-22,Nissan
+Ford F-150,45000,2024-03-09,BMW
+Mercedes C-Class,45000,2024-02-14,BMW
+BMW 3 Series,42000,2024-11-25,BMW
+Chevrolet Silverado,50000,2025-01-11,Chevrolet
+Nissan Altima,38000,2024-08-27,Mercedes
+Nissan Altima,25000,2024-05-20,Audi
+Mercedes C-Class,45000,2024-05-14,Mercedes
+Tesla Model 3,22000,2024-11-08,BMW
+Toyota Camry,22000,2024-03-04,Tesla
+Mercedes C-Class,45000,2024-10-24,Chevrolet
+Honda Civic,24000,2024-10-27,Ford
+Audi A4,22000,2024-10-30,Toyota
+Mercedes C-Class,42000,2024-11-10,Tesla
+Nissan Altima,22000,2024-02-12,Hyundai
+Nissan Altima,21000,2024-06-07,Chevrolet
+Honda Civic,21000,2024-07-01,Nissan
+Toyota Camry,47000,2024-06-06,Mercedes
+Chevrolet Silverado,21000,2024-08-17,Nissan
+Honda Civic,35000,2024-02-13,Tesla
+Mercedes C-Class,22000,2024-12-11,Ford
+Tesla Model 3,24000,2024-05-24,Mercedes
+Toyota Camry,24000,2024-05-31,Audi
+Audi A4,22000,2025-01-25,BMW
+Toyota Camry,35000,2024-06-03,Mercedes
+Tesla Model 3,21000,2024-10-17,Toyota
+Mercedes C-Class,42000,2024-02-03,Chevrolet
+Audi A4,47000,2024-03-25,Tesla
+Toyota Camry,45000,2024-06-17,Ford
+Ford F-150,24000,2025-01-16,Toyota
+Chevrolet Silverado,42000,2024-04-01,Mercedes
+Hyundai Elantra,38000,2024-08-26,Ford
+Chevrolet Silverado,42000,2024-02-13,Mercedes
+BMW 3 Series,25000,2024-10-16,BMW
+Tesla Model 3,24000,2025-01-04,BMW
+BMW 3 Series,24000,2024-08-09,Toyota
+Ford F-150,50000,2024-12-02,Ford
+Audi A4,45000,2024-09-14,Chevrolet
+Hyundai Elantra,50000,2024-04-10,Honda
+Audi A4,24000,2024-07-08,Hyundai
+Mercedes C-Class,24000,2024-02-08,Toyota
+Honda Civic,38000,2024-10-27,Nissan
+Mercedes C-Class,21000,2024-12-27,Nissan
+BMW 3 Series,45000,2024-03-01,Audi
+Ford F-150,21000,2024-11-24,Tesla
+Honda Civic,47000,2024-09-16,Audi
+Honda Civic,50000,2024-07-02,Toyota
+Honda Civic,42000,2024-08-05,Tesla
+Mercedes C-Class,21000,2024-09-23,Hyundai
+Chevrolet Silverado,38000,2024-12-17,Audi
+Ford F-150,22000,2024-03-03,Toyota
+Tesla Model 3,22000,2024-04-13,Mercedes
+Ford F-150,50000,2024-07-08,Toyota
+Ford F-150,25000,2024-09-23,Honda
+Toyota Camry,38000,2024-02-16,Audi
+Toyota Camry,22000,2024-11-19,BMW
+Hyundai Elantra,42000,2024-03-28,BMW
+Toyota Camry,35000,2025-01-13,Tesla
+Toyota Camry,45000,2024-02-06,Chevrolet
+Mercedes C-Class,22000,2024-03-12,Audi
+Ford F-150,42000,2024-08-17,Audi
+Tesla Model 3,45000,2024-09-08,Audi
+Chevrolet Silverado,47000,2024-06-05,Audi
+Tesla Model 3,47000,2024-07-25,Chevrolet
+Honda Civic,45000,2024-03-23,Chevrolet
+Hyundai Elantra,21000,2024-07-27,Ford
+Mercedes C-Class,47000,2024-02-25,Ford
+Toyota Camry,35000,2025-01-04,BMW
+Tesla Model 3,22000,2024-10-01,Tesla
+Chevrolet Silverado,25000,2024-07-12,Chevrolet
+Honda Civic,47000,2024-11-30,Nissan
+BMW 3 Series,22000,2024-07-23,Mercedes
+Nissan Altima,38000,2024-05-20,BMW
+Hyundai Elantra,42000,2024-09-09,Audi
+Hyundai Elantra,47000,2024-09-28,Toyota
+Tesla Model 3,35000,2024-04-27,Chevrolet
+Mercedes C-Class,38000,2024-06-17,Nissan
+Hyundai Elantra,22000,2024-07-29,Audi
+Toyota Camry,25000,2024-02-29,Tesla
+Chevrolet Silverado,25000,2024-11-19,BMW
+Nissan Altima,47000,2025-01-24,Toyota
+Audi A4,50000,2024-08-01,Ford
+BMW 3 Series,50000,2024-08-05,Chevrolet
+Nissan Altima,35000,2024-06-21,Ford
+Toyota Camry,25000,2024-07-23,Nissan
+Hyundai Elantra,45000,2024-11-26,Mercedes
+BMW 3 Series,45000,2024-08-18,Toyota
+Ford F-150,25000,2024-07-02,Honda
+Audi A4,35000,2024-11-30,Ford
+Chevrolet Silverado,35000,2024-02-09,Honda
+Ford F-150,35000,2024-09-28,Audi
+BMW 3 Series,24000,2024-11-27,Toyota
+Honda Civic,25000,2024-05-15,Tesla
+Nissan Altima,50000,2024-04-30,Toyota
+Mercedes C-Class,45000,2024-03-30,Ford
+Hyundai Elantra,38000,2024-06-07,BMW
+Nissan Altima,25000,2024-07-19,BMW
+Honda Civic,38000,2025-01-05,Nissan
+Chevrolet Silverado,50000,2024-10-20,Nissan
+Nissan Altima,22000,2024-11-29,Nissan
+Mercedes C-Class,38000,2024-12-20,Audi
+Mercedes C-Class,35000,2024-08-07,Chevrolet
+Nissan Altima,21000,2024-07-05,Tesla
+Hyundai Elantra,50000,2024-03-13,Hyundai
+Tesla Model 3,22000,2024-06-20,BMW
+Tesla Model 3,35000,2024-07-10,Tesla
+Honda Civic,25000,2024-08-19,Audi
+Hyundai Elantra,45000,2024-12-05,Honda
+Mercedes C-Class,38000,2024-06-22,Ford
+Tesla Model 3,45000,2024-12-29,Chevrolet
+Toyota Camry,50000,2024-05-18,Honda
+Tesla Model 3,45000,2024-04-15,Toyota
+Toyota Camry,25000,2024-07-31,Ford
+BMW 3 Series,42000,2024-10-20,Toyota
+Hyundai Elantra,22000,2025-01-04,Tesla
+Hyundai Elantra,24000,2024-12-11,Toyota
+BMW 3 Series,21000,2025-01-15,Hyundai
+Ford F-150,24000,2025-01-17,Honda
+Hyundai Elantra,50000,2024-05-01,Honda
+Mercedes C-Class,22000,2024-02-20,Nissan
+Nissan Altima,24000,2024-09-09,Chevrolet
+Audi A4,47000,2024-10-20,Mercedes
+Nissan Altima,42000,2024-04-15,Hyundai
+BMW 3 Series,21000,2024-03-02,Chevrolet
+Hyundai Elantra,45000,2024-06-21,Audi
+Hyundai Elantra,50000,2024-06-30,Hyundai
+Ford F-150,45000,2024-11-15,Chevrolet
+Nissan Altima,42000,2024-05-10,BMW
+BMW 3 Series,24000,2024-06-26,Toyota
+Toyota Camry,25000,2024-04-09,Mercedes
+Honda Civic,45000,2024-03-30,Tesla
+Hyundai Elantra,45000,2025-01-05,Tesla
+Toyota Camry,45000,2024-10-24,Tesla
+Ford F-150,24000,2024-07-21,BMW
+Hyundai Elantra,50000,2024-10-06,Toyota
+Hyundai Elantra,25000,2024-10-11,BMW
+Chevrolet Silverado,22000,2024-09-26,Chevrolet
+Mercedes C-Class,35000,2024-03-11,Tesla
+Honda Civic,22000,2024-03-06,Audi
+Toyota Camry,45000,2024-05-25,BMW
+Tesla Model 3,22000,2024-04-27,BMW
+Ford F-150,24000,2025-01-02,Audi
+Audi A4,42000,2024-08-27,Chevrolet
+Mercedes C-Class,35000,2024-10-16,Toyota
+Toyota Camry,45000,2024-11-27,Nissan
+Nissan Altima,24000,2024-07-06,BMW
+Honda Civic,45000,2025-01-23,BMW
+Toyota Camry,38000,2025-01-22,Ford
+Ford F-150,25000,2025-01-01,BMW
+Nissan Altima,38000,2025-01-27,Audi
+BMW 3 Series,21000,2024-06-15,Chevrolet
+Hyundai Elantra,25000,2024-06-05,Nissan
+Toyota Camry,42000,2024-10-17,Nissan
+Ford F-150,25000,2024-12-27,BMW
+Chevrolet Silverado,42000,2024-08-01,Nissan
+BMW 3 Series,22000,2024-07-05,BMW
+Toyota Camry,24000,2024-09-05,Honda
+Mercedes C-Class,42000,2024-06-19,Tesla
+Ford F-150,47000,2024-09-10,Toyota
+BMW 3 Series,21000,2024-02-09,Mercedes
+Mercedes C-Class,38000,2024-09-11,Ford
+Chevrolet Silverado,47000,2024-12-19,Tesla
+Ford F-150,25000,2025-01-09,Audi
+Ford F-150,38000,2024-04-13,Tesla
+Honda Civic,42000,2024-12-18,Mercedes
+Tesla Model 3,45000,2024-06-04,Nissan
+Toyota Camry,24000,2024-02-29,Chevrolet
+BMW 3 Series,24000,2024-10-18,Honda
+Hyundai Elantra,24000,2025-01-25,Mercedes
+Hyundai Elantra,21000,2024-05-03,Nissan
+BMW 3 Series,42000,2024-02-24,Audi
+Ford F-150,42000,2025-01-07,Ford
+Chevrolet Silverado,35000,2024-09-08,Honda
+Mercedes C-Class,22000,2024-03-30,Ford
+Tesla Model 3,50000,2024-02-29,Ford
+Audi A4,22000,2024-09-03,Tesla
+Honda Civic,22000,2024-03-15,Honda
+Honda Civic,21000,2024-12-03,Audi
+Nissan Altima,47000,2024-05-02,Hyundai
+Mercedes C-Class,24000,2024-11-22,BMW
+Ford F-150,50000,2024-08-03,Mercedes
+Mercedes C-Class,22000,2024-08-23,Honda
+Hyundai Elantra,25000,2024-05-09,Ford
+Honda Civic,42000,2024-07-24,Mercedes
+Ford F-150,47000,2024-09-09,Ford
+Tesla Model 3,42000,2024-05-01,Tesla
+Honda Civic,25000,2024-09-10,Tesla
+Hyundai Elantra,38000,2024-05-11,Toyota
+Mercedes C-Class,22000,2024-03-25,Ford
+Mercedes C-Class,47000,2024-11-27,Ford
+Tesla Model 3,21000,2024-12-20,Audi
+Ford F-150,25000,2024-12-06,Nissan
+Toyota Camry,50000,2024-04-10,Honda
+Mercedes C-Class,22000,2024-03-26,Tesla
+BMW 3 Series,38000,2024-02-22,Chevrolet
+Mercedes C-Class,35000,2024-11-05,Chevrolet
+Ford F-150,50000,2024-02-22,BMW
+Tesla Model 3,38000,2024-05-31,Chevrolet
+Tesla Model 3,45000,2025-01-04,Audi
+Tesla Model 3,45000,2024-06-14,Mercedes
+BMW 3 Series,42000,2024-12-18,Chevrolet
+Mercedes C-Class,45000,2024-07-16,BMW
+Toyota Camry,35000,2024-10-13,Audi
+Ford F-150,24000,2024-02-15,Mercedes
+Nissan Altima,24000,2024-03-16,Honda
+Toyota Camry,22000,2024-06-08,BMW
+Mercedes C-Class,45000,2024-08-02,BMW
+Toyota Camry,42000,2024-08-14,Chevrolet
+Mercedes C-Class,42000,2024-10-20,Hyundai
+Mercedes C-Class,45000,2024-06-21,Tesla
+Nissan Altima,21000,2024-11-23,Nissan
+Audi A4,50000,2024-02-08,Tesla
+Toyota Camry,42000,2024-04-28,Nissan
+Ford F-150,24000,2024-08-05,Tesla
+Tesla Model 3,22000,2024-07-20,Audi
+Mercedes C-Class,38000,2024-07-29,Mercedes
+Hyundai Elantra,45000,2024-06-14,Hyundai
+Chevrolet Silverado,45000,2024-09-09,Nissan
+Chevrolet Silverado,21000,2024-07-17,Toyota
+Nissan Altima,25000,2024-08-26,Tesla
+Nissan Altima,47000,2024-09-24,Ford
+Mercedes C-Class,47000,2024-08-23,Honda
+Honda Civic,21000,2024-11-03,Tesla
+Toyota Camry,25000,2024-02-24,Mercedes
+Nissan Altima,24000,2024-08-20,Hyundai
+Mercedes C-Class,35000,2025-01-26,Nissan
+Hyundai Elantra,42000,2025-01-02,Honda
+Tesla Model 3,42000,2024-08-07,Ford
+Tesla Model 3,42000,2024-04-07,Hyundai
+Nissan Altima,25000,2024-07-04,Tesla
+Ford F-150,35000,2024-06-05,Toyota
+Hyundai Elantra,47000,2024-07-31,Audi
+Mercedes C-Class,25000,2024-05-25,Ford
+Chevrolet Silverado,24000,2024-04-08,Toyota
+Toyota Camry,45000,2024-08-26,Hyundai
+Ford F-150,47000,2024-03-14,Honda
+Mercedes C-Class,38000,2024-11-11,Chevrolet
+Chevrolet Silverado,24000,2024-12-25,Honda
+Hyundai Elantra,38000,2024-03-18,Nissan
+Nissan Altima,45000,2024-10-04,Mercedes
+Nissan Altima,24000,2024-02-16,Tesla
+Tesla Model 3,45000,2024-12-12,Hyundai
+Ford F-150,22000,2024-12-06,Mercedes
+Mercedes C-Class,45000,2024-03-19,BMW
+Audi A4,25000,2024-10-07,Mercedes
+Nissan Altima,24000,2024-05-05,Nissan
+Hyundai Elantra,22000,2024-12-23,Honda
+Chevrolet Silverado,35000,2024-12-06,BMW
+Mercedes C-Class,21000,2024-08-24,Hyundai
+Chevrolet Silverado,21000,2024-04-14,Honda
+Honda Civic,50000,2024-08-14,Honda
+Toyota Camry,24000,2024-11-26,Chevrolet
+Chevrolet Silverado,45000,2024-03-11,Audi
+Mercedes C-Class,21000,2024-10-31,Hyundai
+Tesla Model 3,47000,2024-07-31,Honda
+Toyota Camry,22000,2024-09-17,Mercedes
+Nissan Altima,42000,2024-02-08,BMW
+Hyundai Elantra,45000,2024-03-08,BMW
+Hyundai Elantra,25000,2024-09-01,Chevrolet
+Toyota Camry,38000,2024-02-29,Audi
+Toyota Camry,50000,2024-11-08,Honda
+Honda Civic,35000,2024-12-10,Nissan
+Ford F-150,38000,2024-09-20,Chevrolet
+Toyota Camry,22000,2024-06-28,Chevrolet
+Honda Civic,24000,2024-10-13,Ford
+Honda Civic,24000,2025-01-24,Audi
+Mercedes C-Class,35000,2024-09-14,Honda
+Nissan Altima,22000,2024-03-23,Tesla
+Hyundai Elantra,47000,2024-04-23,Tesla
+Mercedes C-Class,38000,2024-08-12,Toyota
+BMW 3 Series,50000,2025-01-17,Honda
+BMW 3 Series,21000,2024-08-25,Tesla
+Toyota Camry,45000,2024-10-17,Honda
+Audi A4,45000,2024-08-09,Toyota
+Hyundai Elantra,35000,2024-03-23,Chevrolet
+Toyota Camry,25000,2025-01-30,Hyundai
+Audi A4,45000,2024-02-28,Nissan
+Ford F-150,24000,2024-12-10,Audi
+Audi A4,50000,2024-02-22,Tesla
+Ford F-150,50000,2024-09-16,Tesla
+BMW 3 Series,25000,2024-10-24,BMW
+Ford F-150,47000,2024-09-25,Chevrolet
+Honda Civic,42000,2024-07-15,BMW
+BMW 3 Series,38000,2024-06-14,Chevrolet
+Hyundai Elantra,22000,2024-09-12,Tesla
+Chevrolet Silverado,21000,2024-09-27,Tesla
+Toyota Camry,25000,2025-01-03,Tesla
+Honda Civic,22000,2024-04-21,Ford
+Ford F-150,24000,2024-04-26,Audi
+Chevrolet Silverado,21000,2024-07-12,Toyota
+Honda Civic,45000,2024-02-12,Audi
+Ford F-150,47000,2024-06-03,BMW
+Audi A4,47000,2024-03-11,Chevrolet
+Toyota Camry,45000,2024-03-18,Tesla
+Chevrolet Silverado,35000,2024-03-31,Nissan
+Tesla Model 3,25000,2025-01-11,Chevrolet
+Mercedes C-Class,47000,2024-03-25,Ford
+Hyundai Elantra,35000,2024-11-09,Hyundai
+Hyundai Elantra,25000,2024-02-27,Ford
+Hyundai Elantra,24000,2024-02-04,Nissan
+Toyota Camry,38000,2024-03-06,Honda
+Ford F-150,24000,2024-03-04,Audi
+Chevrolet Silverado,22000,2024-12-22,Tesla
+BMW 3 Series,50000,2024-11-19,Tesla
+Mercedes C-Class,42000,2024-04-05,BMW
+Chevrolet Silverado,24000,2024-03-11,Nissan
+Toyota Camry,35000,2024-02-07,Nissan
+Toyota Camry,24000,2024-02-09,Nissan
+BMW 3 Series,45000,2024-06-19,Honda
+Hyundai Elantra,50000,2024-02-27,Nissan
+Mercedes C-Class,21000,2024-08-29,Audi
+Hyundai Elantra,25000,2024-02-05,Toyota
+Honda Civic,35000,2024-03-18,Hyundai
+Tesla Model 3,42000,2024-02-22,Ford
+Hyundai Elantra,45000,2024-09-18,Hyundai
+Honda Civic,38000,2024-04-14,Hyundai
+Ford F-150,47000,2024-04-14,Toyota
+Nissan Altima,22000,2025-01-03,Hyundai
+Mercedes C-Class,24000,2024-02-09,Honda
+Toyota Camry,38000,2025-01-16,Hyundai
+BMW 3 Series,25000,2024-09-10,Chevrolet
+Honda Civic,35000,2024-08-20,BMW
+BMW 3 Series,35000,2024-02-24,Hyundai
+Tesla Model 3,47000,2024-11-16,Mercedes
+Honda Civic,35000,2024-08-12,Tesla
+Hyundai Elantra,42000,2024-07-10,Mercedes
+Ford F-150,50000,2024-04-11,Hyundai
+Audi A4,22000,2024-07-02,Nissan
+Chevrolet Silverado,25000,2024-12-01,Hyundai
+Audi A4,25000,2025-01-17,Nissan
+Nissan Altima,25000,2024-10-01,Tesla
+Honda Civic,50000,2024-06-03,Mercedes
+Chevrolet Silverado,24000,2025-01-14,Nissan
+Toyota Camry,35000,2024-05-30,Mercedes
+BMW 3 Series,45000,2024-10-13,Toyota
+Chevrolet Silverado,22000,2024-11-13,Hyundai
+Nissan Altima,42000,2024-12-15,Hyundai
+Hyundai Elantra,25000,2025-01-27,Toyota
+Honda Civic,50000,2025-01-06,Tesla
+Tesla Model 3,24000,2024-04-17,Ford
+Tesla Model 3,24000,2025-01-24,Audi
+Nissan Altima,42000,2024-06-18,Honda
+Tesla Model 3,38000,2024-08-09,Hyundai
+Ford F-150,21000,2025-01-16,BMW
+Honda Civic,35000,2024-11-29,Honda
+Honda Civic,42000,2024-05-06,Hyundai
+Tesla Model 3,24000,2024-03-27,Mercedes
+Chevrolet Silverado,38000,2024-03-16,Hyundai
+Tesla Model 3,47000,2024-08-05,Mercedes
+Nissan Altima,24000,2025-01-08,Tesla
+Nissan Altima,22000,2024-04-17,Ford
+Chevrolet Silverado,42000,2024-07-01,Toyota
+Hyundai Elantra,47000,2025-01-08,Toyota
+Honda Civic,24000,2024-07-25,Honda
+Honda Civic,25000,2024-02-21,Audi
+Chevrolet Silverado,38000,2024-12-21,Toyota
+Ford F-150,42000,2024-11-12,Tesla
+Mercedes C-Class,22000,2024-05-18,Tesla
+Mercedes C-Class,38000,2024-04-15,Toyota
+Honda Civic,22000,2024-09-22,Nissan
+Chevrolet Silverado,50000,2024-11-27,Nissan
+BMW 3 Series,47000,2024-08-24,Honda
+Toyota Camry,21000,2024-08-23,Chevrolet
+Toyota Camry,22000,2024-05-29,Hyundai
+Honda Civic,22000,2025-01-15,Tesla
+Honda Civic,21000,2024-04-16,Chevrolet
+Ford F-150,22000,2024-08-14,Honda
+Hyundai Elantra,24000,2024-07-12,Tesla
+Mercedes C-Class,47000,2024-09-22,Tesla
+Toyota Camry,42000,2024-03-11,Honda
+Mercedes C-Class,42000,2025-01-30,Tesla
+Tesla Model 3,21000,2025-01-19,Hyundai
+BMW 3 Series,47000,2024-12-03,Mercedes
+Ford F-150,47000,2024-09-02,Mercedes
+Ford F-150,21000,2024-12-10,Ford
+BMW 3 Series,35000,2024-02-08,Chevrolet
+Nissan Altima,35000,2024-03-22,Mercedes
+Nissan Altima,38000,2024-07-21,Honda
+Chevrolet Silverado,42000,2024-02-08,Toyota
+Hyundai Elantra,35000,2024-07-16,Tesla
+Ford F-150,47000,2025-01-20,Honda
+BMW 3 Series,50000,2024-05-15,Honda
+Honda Civic,24000,2024-05-10,Nissan
+Ford F-150,21000,2024-06-08,BMW
+BMW 3 Series,22000,2024-10-17,Nissan
+Chevrolet Silverado,47000,2025-01-05,Tesla
+Nissan Altima,22000,2025-01-12,Nissan
+Mercedes C-Class,24000,2024-10-21,Tesla
+Hyundai Elantra,22000,2024-02-24,Ford
+Hyundai Elantra,25000,2025-01-21,Mercedes
+Chevrolet Silverado,50000,2024-07-28,Nissan
+Hyundai Elantra,47000,2024-12-26,Chevrolet
+Honda Civic,38000,2024-05-05,Toyota
+Audi A4,22000,2024-12-28,Ford
+BMW 3 Series,38000,2024-12-06,Honda
+Chevrolet Silverado,38000,2024-02-19,Audi
+Honda Civic,50000,2024-03-29,Audi
+Toyota Camry,22000,2024-08-15,Toyota
+Mercedes C-Class,50000,2024-10-06,Hyundai
+Mercedes C-Class,50000,2024-02-02,Toyota
+Toyota Camry,21000,2024-07-21,Nissan
+Chevrolet Silverado,47000,2025-01-15,Hyundai
+Mercedes C-Class,21000,2024-02-15,Ford
+Honda Civic,45000,2024-02-09,BMW
+Audi A4,24000,2024-09-15,Hyundai
+Chevrolet Silverado,45000,2024-07-12,Nissan
+Ford F-150,21000,2024-07-27,Toyota
+Hyundai Elantra,35000,2024-11-05,Tesla
+Tesla Model 3,22000,2024-04-04,Hyundai
+Mercedes C-Class,45000,2024-12-20,Hyundai
+Tesla Model 3,42000,2024-11-12,Hyundai
+Audi A4,47000,2024-10-29,Tesla
+Ford F-150,47000,2024-08-25,Toyota
+Audi A4,42000,2025-01-29,Toyota
+Honda Civic,35000,2024-04-23,Nissan
+Toyota Camry,25000,2024-03-21,BMW
+Toyota Camry,38000,2024-02-24,Toyota
+Audi A4,50000,2024-02-11,BMW
+Hyundai Elantra,50000,2024-06-09,Chevrolet
+Audi A4,22000,2024-08-29,Ford
+Ford F-150,42000,2024-11-21,Hyundai
+Toyota Camry,42000,2024-05-13,Nissan
+BMW 3 Series,25000,2024-05-06,Hyundai
+Mercedes C-Class,35000,2025-01-21,Audi
+Chevrolet Silverado,22000,2024-05-13,Chevrolet
+Chevrolet Silverado,21000,2024-12-17,Nissan
+Honda Civic,47000,2024-02-25,Honda
+BMW 3 Series,22000,2024-04-16,Audi
+Tesla Model 3,38000,2024-10-11,BMW
+Tesla Model 3,50000,2024-12-19,Hyundai
+Toyota Camry,35000,2024-11-05,Ford
+Audi A4,45000,2024-06-30,Ford
+Hyundai Elantra,38000,2024-08-13,Ford
+Hyundai Elantra,45000,2024-06-01,Tesla
+Mercedes C-Class,45000,2024-12-12,Ford
+Honda Civic,21000,2024-08-13,Mercedes
+Nissan Altima,47000,2024-03-12,Nissan
+Honda Civic,24000,2024-11-11,Toyota
+Ford F-150,42000,2024-09-27,Toyota
+Mercedes C-Class,38000,2024-04-23,Audi
+Honda Civic,21000,2024-11-22,Tesla
+Tesla Model 3,22000,2024-10-18,Nissan
+Audi A4,38000,2024-06-29,Honda
+Ford F-150,42000,2024-07-24,Nissan
+Hyundai Elantra,42000,2024-11-26,Honda
+BMW 3 Series,42000,2024-06-22,Toyota
+Tesla Model 3,22000,2024-04-24,Nissan
+Toyota Camry,35000,2024-09-30,BMW
+Chevrolet Silverado,47000,2024-08-17,Nissan
+Ford F-150,42000,2024-06-23,Nissan
+BMW 3 Series,38000,2024-04-03,Tesla
+Hyundai Elantra,38000,2024-04-08,Hyundai
+Mercedes C-Class,38000,2024-04-03,BMW
+Mercedes C-Class,24000,2024-07-26,BMW
+Tesla Model 3,21000,2024-02-15,Chevrolet
+Honda Civic,35000,2025-01-23,Hyundai
+Honda Civic,22000,2024-09-03,Toyota
+Toyota Camry,45000,2024-02-23,Toyota
+Audi A4,35000,2024-09-15,Honda
+Mercedes C-Class,22000,2024-10-28,Honda
+Chevrolet Silverado,21000,2024-08-03,Chevrolet
+Hyundai Elantra,21000,2024-05-17,Chevrolet
+Mercedes C-Class,21000,2024-07-27,Mercedes
+BMW 3 Series,22000,2024-06-22,Mercedes
+Tesla Model 3,50000,2024-12-06,Hyundai
+BMW 3 Series,42000,2024-09-11,Toyota
+Chevrolet Silverado,50000,2024-11-16,Audi
+Chevrolet Silverado,38000,2024-02-01,Ford
+Ford F-150,24000,2024-02-11,Honda
+Audi A4,35000,2024-05-11,Audi
+Ford F-150,42000,2024-10-01,Tesla
+Toyota Camry,25000,2024-05-17,Ford
+Chevrolet Silverado,21000,2024-07-16,Audi
+Honda Civic,38000,2024-12-01,Tesla
+Mercedes C-Class,22000,2024-02-08,Tesla
+Mercedes C-Class,35000,2024-05-11,BMW
+Honda Civic,50000,2024-09-29,Mercedes
+Honda Civic,38000,2024-04-18,Hyundai
+Audi A4,45000,2024-04-12,Nissan
+Mercedes C-Class,22000,2024-06-29,Hyundai
+Chevrolet Silverado,45000,2024-07-23,Honda
+Ford F-150,25000,2024-04-29,BMW
+Tesla Model 3,22000,2024-10-13,Chevrolet
+Chevrolet Silverado,50000,2025-01-28,Honda
+Ford F-150,25000,2025-01-17,Ford
+BMW 3 Series,24000,2024-12-21,Tesla
+Chevrolet Silverado,25000,2024-09-17,Toyota
+Chevrolet Silverado,21000,2024-12-08,Ford
+Chevrolet Silverado,42000,2024-06-14,BMW
+Audi A4,22000,2024-09-29,Nissan
+Nissan Altima,24000,2024-08-10,Audi
+Nissan Altima,47000,2024-07-14,Audi
+Nissan Altima,24000,2024-02-17,Ford
+Toyota Camry,50000,2024-04-17,Mercedes
+Nissan Altima,45000,2025-01-11,Audi
+Mercedes C-Class,21000,2024-05-10,Ford
+Tesla Model 3,38000,2024-06-06,Hyundai
+Tesla Model 3,35000,2024-07-05,BMW
+Tesla Model 3,24000,2024-05-22,Hyundai
+Nissan Altima,25000,2024-10-22,BMW
+Mercedes C-Class,42000,2024-10-20,Mercedes
+Hyundai Elantra,35000,2024-04-10,Nissan
+Mercedes C-Class,35000,2024-08-31,Hyundai
+Ford F-150,25000,2024-11-08,Ford
+BMW 3 Series,21000,2024-09-18,Toyota
+Ford F-150,22000,2024-03-01,Chevrolet
+Mercedes C-Class,24000,2024-04-27,Chevrolet
+Toyota Camry,24000,2024-12-18,Tesla
+Honda Civic,50000,2024-07-01,Toyota
+Hyundai Elantra,38000,2024-06-01,Chevrolet
+Mercedes C-Class,25000,2024-09-19,Nissan
+Tesla Model 3,35000,2024-03-13,Chevrolet
+Honda Civic,25000,2025-01-27,Hyundai
+Toyota Camry,50000,2025-01-27,Chevrolet
+Tesla Model 3,50000,2024-06-15,Audi
+Nissan Altima,25000,2024-12-20,Mercedes
+Toyota Camry,25000,2025-01-30,Mercedes
+Mercedes C-Class,24000,2024-11-13,BMW
+Ford F-150,35000,2024-12-27,Toyota
+Audi A4,22000,2024-08-28,Honda
+Ford F-150,42000,2025-01-15,Mercedes
+BMW 3 Series,38000,2024-10-29,Chevrolet
+Chevrolet Silverado,25000,2024-05-02,Ford
+BMW 3 Series,50000,2024-08-30,Audi
+BMW 3 Series,22000,2024-09-18,Chevrolet
+BMW 3 Series,24000,2024-02-20,Tesla
+Hyundai Elantra,24000,2024-06-22,Ford
+Nissan Altima,35000,2024-08-11,Audi
+Ford F-150,25000,2024-04-09,Audi
+Hyundai Elantra,42000,2024-02-21,Audi
+Ford F-150,21000,2024-05-10,Honda
+Chevrolet Silverado,38000,2024-05-16,Ford
+Ford F-150,21000,2024-03-15,Honda
+BMW 3 Series,45000,2024-07-24,Tesla
+Chevrolet Silverado,42000,2024-07-24,Chevrolet
+Tesla Model 3,24000,2024-04-20,BMW
+Hyundai Elantra,38000,2025-01-30,Toyota
+Chevrolet Silverado,24000,2024-06-14,Hyundai
+Chevrolet Silverado,47000,2024-03-01,Honda
+BMW 3 Series,47000,2025-01-05,Tesla
+Chevrolet Silverado,22000,2024-08-24,Chevrolet
+Hyundai Elantra,22000,2024-03-05,Chevrolet
+Chevrolet Silverado,21000,2024-09-26,Hyundai
+Toyota Camry,35000,2024-07-16,Hyundai
+Honda Civic,47000,2025-01-05,Nissan
+Chevrolet Silverado,35000,2024-02-08,Mercedes
+Nissan Altima,38000,2024-07-06,Audi
+Toyota Camry,35000,2024-02-15,Toyota
+BMW 3 Series,21000,2024-07-22,Nissan
+Tesla Model 3,35000,2024-04-29,Chevrolet
+Honda Civic,25000,2025-01-18,Ford
+Ford F-150,22000,2024-02-29,Honda
+Ford F-150,45000,2024-10-19,BMW
+Honda Civic,42000,2025-01-17,Hyundai
+Audi A4,47000,2024-11-25,BMW
+BMW 3 Series,21000,2024-05-15,Hyundai
+Ford F-150,50000,2025-01-17,Mercedes
+Toyota Camry,50000,2024-09-10,Honda
+BMW 3 Series,35000,2024-06-01,Nissan
+Audi A4,45000,2024-10-06,Nissan
+Mercedes C-Class,38000,2024-01-31,Hyundai
+BMW 3 Series,38000,2024-11-02,Ford
+BMW 3 Series,38000,2024-02-21,Honda
+Toyota Camry,24000,2024-06-09,Nissan
+Hyundai Elantra,47000,2024-02-12,Chevrolet
+BMW 3 Series,50000,2024-03-18,Hyundai
+BMW 3 Series,35000,2024-12-17,Chevrolet
+Mercedes C-Class,21000,2024-05-13,Toyota
+Honda Civic,21000,2024-02-12,Ford
+Tesla Model 3,24000,2024-11-27,Nissan
+Hyundai Elantra,25000,2024-02-23,BMW
+BMW 3 Series,42000,2024-05-05,Tesla
+Ford F-150,45000,2024-09-23,Hyundai
+Nissan Altima,42000,2024-11-02,Chevrolet
+Mercedes C-Class,38000,2024-12-28,Ford
+Toyota Camry,24000,2024-12-07,Hyundai
+Toyota Camry,21000,2024-12-12,Mercedes
+Toyota Camry,22000,2024-02-23,BMW
+BMW 3 Series,35000,2024-05-25,Nissan
+Honda Civic,35000,2024-12-28,BMW
+Hyundai Elantra,50000,2024-12-23,Toyota
+Toyota Camry,42000,2024-05-12,Audi
+Hyundai Elantra,50000,2024-09-29,BMW
+Chevrolet Silverado,38000,2024-03-19,Tesla
+Tesla Model 3,42000,2024-05-11,Mercedes
+Nissan Altima,35000,2024-04-14,Mercedes
+Nissan Altima,47000,2024-10-27,Honda
+Hyundai Elantra,35000,2024-12-07,Toyota
+Nissan Altima,38000,2024-06-22,BMW
+Nissan Altima,25000,2024-09-09,Toyota
+Audi A4,45000,2024-02-13,Hyundai
+Mercedes C-Class,21000,2024-04-07,Toyota
+Ford F-150,45000,2024-10-10,Nissan
+BMW 3 Series,45000,2024-02-12,BMW
+Toyota Camry,38000,2024-12-28,Chevrolet
+BMW 3 Series,42000,2024-02-15,Hyundai
+Nissan Altima,24000,2024-09-25,Honda
+Tesla Model 3,25000,2024-12-31,Tesla
+Audi A4,22000,2024-02-11,Audi
+Hyundai Elantra,38000,2024-10-14,Ford
+Honda Civic,25000,2024-11-01,Toyota
+Hyundai Elantra,21000,2024-02-13,Chevrolet
+Chevrolet Silverado,35000,2025-01-21,Nissan
+Honda Civic,50000,2024-02-10,Mercedes
+BMW 3 Series,38000,2024-09-07,Mercedes
+Honda Civic,21000,2024-09-03,Toyota
+Nissan Altima,47000,2024-04-16,Audi
+Hyundai Elantra,25000,2024-09-26,Chevrolet
+Toyota Camry,35000,2024-09-01,BMW
+Toyota Camry,50000,2024-12-05,Hyundai
+Ford F-150,24000,2024-12-22,Nissan
+Toyota Camry,45000,2025-01-06,Ford
+Nissan Altima,42000,2024-07-27,Ford
+BMW 3 Series,47000,2024-07-23,Toyota
+Chevrolet Silverado,38000,2024-04-30,Honda
+Honda Civic,42000,2024-12-20,Chevrolet
+Hyundai Elantra,35000,2024-12-28,Toyota
+Mercedes C-Class,50000,2024-03-21,Toyota
+Toyota Camry,38000,2025-01-26,Nissan
+Tesla Model 3,50000,2024-04-17,Ford
+Toyota Camry,25000,2024-06-29,Mercedes
+Mercedes C-Class,38000,2024-08-16,Hyundai
+Hyundai Elantra,45000,2024-04-13,Chevrolet
+Hyundai Elantra,22000,2024-07-15,BMW
+Toyota Camry,50000,2024-07-22,Nissan
+Hyundai Elantra,47000,2024-03-16,Hyundai
+Toyota Camry,35000,2024-02-17,Audi
+Tesla Model 3,22000,2024-02-23,Tesla
+Hyundai Elantra,38000,2024-03-01,BMW
+BMW 3 Series,25000,2024-01-31,BMW
+BMW 3 Series,21000,2024-12-05,Ford
+Nissan Altima,35000,2024-04-05,Tesla
+Chevrolet Silverado,50000,2024-06-21,Honda
+Hyundai Elantra,35000,2024-04-05,Chevrolet
+Hyundai Elantra,45000,2024-02-19,Honda
+Ford F-150,35000,2024-07-30,Mercedes
+Ford F-150,21000,2024-08-06,Chevrolet
+Nissan Altima,21000,2025-01-10,Toyota
+Toyota Camry,45000,2024-11-16,Ford
+Hyundai Elantra,24000,2024-03-16,Chevrolet
+Chevrolet Silverado,38000,2024-12-27,Mercedes
+Audi A4,38000,2024-08-23,Audi
+Honda Civic,47000,2024-03-24,Ford
+Tesla Model 3,38000,2024-02-27,Audi
+Toyota Camry,21000,2024-02-26,Tesla
+BMW 3 Series,25000,2024-06-22,Mercedes
+Mercedes C-Class,45000,2024-03-21,Mercedes
+Mercedes C-Class,47000,2024-02-15,BMW
+Ford F-150,22000,2024-07-26,Chevrolet
+Nissan Altima,22000,2024-09-25,Audi
+Ford F-150,24000,2024-10-28,Tesla
+Nissan Altima,45000,2024-09-12,Hyundai
+Hyundai Elantra,25000,2024-11-19,BMW
+Mercedes C-Class,45000,2024-11-08,Chevrolet
+Chevrolet Silverado,24000,2024-11-03,BMW
+Hyundai Elantra,22000,2024-07-01,Honda
+Hyundai Elantra,21000,2024-11-16,Honda
+Mercedes C-Class,21000,2024-04-02,Honda
+Nissan Altima,22000,2024-06-26,Tesla
+Mercedes C-Class,35000,2024-12-12,Mercedes
+Toyota Camry,22000,2024-06-06,Toyota
+Ford F-150,22000,2024-11-08,Ford
+Mercedes C-Class,42000,2024-02-20,Mercedes
+Audi A4,42000,2025-01-06,Ford
+Audi A4,47000,2025-01-21,Honda
+Tesla Model 3,22000,2024-10-10,Toyota
+Toyota Camry,47000,2024-06-27,Ford
+Chevrolet Silverado,35000,2024-11-14,Toyota
+Mercedes C-Class,35000,2024-11-24,Ford
+Tesla Model 3,38000,2024-06-28,Nissan
+Tesla Model 3,35000,2024-11-04,Chevrolet
+Hyundai Elantra,21000,2024-03-27,Hyundai
+Nissan Altima,35000,2024-02-23,Toyota
+Tesla Model 3,42000,2024-11-04,Hyundai
+Honda Civic,50000,2024-02-29,Nissan
+Chevrolet Silverado,25000,2024-02-24,Hyundai
+BMW 3 Series,25000,2024-07-02,Ford
+Honda Civic,42000,2024-03-03,Ford
+Honda Civic,35000,2024-09-11,Ford
+BMW 3 Series,50000,2024-06-04,Tesla
+Tesla Model 3,42000,2024-08-20,Toyota
+Tesla Model 3,25000,2024-12-18,Honda
+Audi A4,47000,2025-01-22,Chevrolet
+Mercedes C-Class,50000,2024-04-10,Hyundai
+Hyundai Elantra,25000,2024-02-28,Honda
+Mercedes C-Class,42000,2024-08-24,Chevrolet
+Tesla Model 3,45000,2024-07-13,Tesla
+Nissan Altima,21000,2024-04-10,Toyota
+BMW 3 Series,21000,2024-12-18,Nissan
+Mercedes C-Class,35000,2024-12-12,Toyota
+Hyundai Elantra,42000,2024-10-31,Ford
+Hyundai Elantra,25000,2024-12-13,Audi
+Honda Civic,21000,2024-04-02,Nissan
+Toyota Camry,42000,2024-04-03,Tesla
+Hyundai Elantra,22000,2024-03-03,Nissan
+BMW 3 Series,47000,2024-05-02,Chevrolet
+BMW 3 Series,24000,2024-09-18,Toyota
+BMW 3 Series,38000,2024-02-05,BMW
+Chevrolet Silverado,45000,2024-07-31,Hyundai
+Honda Civic,35000,2024-12-20,Tesla
+Nissan Altima,42000,2024-02-08,BMW
+Ford F-150,50000,2024-08-07,Ford
+Audi A4,21000,2024-07-04,Audi
+Audi A4,38000,2024-12-13,Hyundai
+Nissan Altima,25000,2024-06-09,BMW
+Audi A4,25000,2024-02-29,Audi
+Honda Civic,50000,2024-02-18,Toyota
+Honda Civic,50000,2024-05-15,Honda

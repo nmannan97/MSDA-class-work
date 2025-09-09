@@ -1,0 +1,222 @@
+name,slug,value,date_of_information,ranking,region
+China,china,33598000000000.0,2024,1,East and Southeast Asia
+United States,united-states,25676000000000.0,2024,2,North America
+India,india,14244000000000.0,2024,3,South Asia
+Russia,russia,6089000000000.0,2024,4,Central Asia
+Japan,japan,5715000000000.0,2024,5,East and Southeast Asia
+Germany,germany,5247000000000.0,2024,6,Europe
+Brazil,brazil,4165000000000.0,2024,7,South America
+Indonesia,indonesia,4102000000000.0,2024,8,East and Southeast Asia
+United Kingdom,united-kingdom,3636000000000.0,2024,10,Europe
+Italy,italy,3133000000000.0,2024,11,Europe
+Turkey (Turkiye),turkey-turkiye,3018000000000.0,2024,12,Middle East
+Mexico,mexico,2883000000000.0,2024,13,North America
+"Korea, South",korea-south,2607000000000.0,2023,14,East and Southeast Asia
+Spain,spain,2361000000000.0,2024,15,Europe
+Canada,canada,2341000000000.0,2024,16,North America
+Saudi Arabia,saudi-arabia,2213000000000.0,2024,17,Middle East
+Egypt,egypt,1958000000000.0,2024,18,Africa
+Taiwan,taiwan,1743000000000.0,2023,19,East and Southeast Asia
+Poland,poland,1649000000000.0,2024,20,Europe
+Australia,australia,1635000000000.0,2024,21,Australia and Oceania
+Thailand,thailand,1558000000000.0,2024,22,East and Southeast Asia
+Iran,iran,1486000000000.0,2024,23,Middle East
+Bangladesh,bangladesh,1473000000000.0,2024,24,South Asia
+Vietnam,vietnam,1456000000000.0,2024,25,East and Southeast Asia
+Pakistan,pakistan,1390000000000.0,2024,26,South Asia
+Nigeria,nigeria,1318000000000.0,2024,27,Africa
+Netherlands,netherlands,1276000000000.0,2024,28,Europe
+Argentina,argentina,1213000000000.0,2024,29,South America
+Malaysia,malaysia,1212000000000.0,2024,30,East and Southeast Asia
+Philippines,philippines,1202000000000.0,2024,31,East and Southeast Asia
+Colombia,colombia,978592000000.0,2024,32,South America
+South Africa,south-africa,870420000000.0,2024,33,Africa
+Singapore,singapore,800304000000.0,2024,34,East and Southeast Asia
+Romania,romania,774376000000.0,2024,35,Europe
+Belgium,belgium,749229000000.0,2024,36,Europe
+United Arab Emirates,united-arab-emirates,745994000000.0,2024,37,Middle East
+Switzerland,switzerland,741035000000.0,2024,38,Europe
+Kazakhstan,kazakhstan,739385000000.0,2024,39,Central Asia
+Algeria,algeria,722912000000.0,2024,40,Africa
+Sweden,sweden,668628000000.0,2024,41,Europe
+Ireland,ireland,620544000000.0,2024,42,Europe
+Chile,chile,596556000000.0,2024,43,South America
+Iraq,iraq,585887000000.0,2024,44,Middle East
+Austria,austria,581131000000.0,2024,45,Europe
+Ukraine,ukraine,577583000000.0,2024,46,Europe
+Peru,peru,535911000000.0,2024,47,South America
+Czechia,czechia,521928000000.0,2024,48,Europe
+Norway,norway,507680000000.0,2024,49,Europe
+Hong Kong,hong-kong,497880000000.0,2024,50,East and Southeast Asia
+Israel,israel,472177000000.0,2024,51,Middle East
+Portugal,portugal,448226000000.0,2024,52,Europe
+Denmark,denmark,440558000000.0,2024,53,Europe
+Greece,greece,392205000000.0,2024,54,Europe
+Hungary,hungary,389207000000.0,2024,55,Europe
+Ethiopia,ethiopia,380895000000.0,2024,56,Africa
+Uzbekistan,uzbekistan,379989000000.0,2024,57,Central Asia
+Morocco,morocco,350594000000.0,2024,58,Africa
+Kenya,kenya,328632000000.0,2024,59,Africa
+Qatar,qatar,317064000000.0,2024,60,Middle East
+Finland,finland,313591000000.0,2024,61,Europe
+Sri Lanka,sri-lanka,301407000000.0,2024,62,South Asia
+Burma,burma,287559000000.0,2024,63,East and Southeast Asia
+Angola,angola,278239000000.0,2024,64,Africa
+Dominican Republic,dominican-republic,276884000000.0,2024,65,Central America and the Caribbean
+Belarus,belarus,265220000000.0,2024,66,Europe
+New Zealand,new-zealand,257117000000.0,2024,67,Australia and Oceania
+Ecuador,ecuador,252728000000.0,2024,68,South America
+Tanzania,tanzania,246706000000.0,2024,69,Africa
+Ghana,ghana,243124000000.0,2024,70,Africa
+Guatemala,guatemala,232673000000.0,2024,71,Central America and the Caribbean
+Kuwait,kuwait,225947000000.0,2024,72,Middle East
+Azerbaijan,azerbaijan,225198000000.0,2024,73,Central Asia
+Bulgaria,bulgaria,219645000000.0,2024,74,Europe
+Slovakia,slovakia,218762000000.0,2024,75,Europe
+Cote d'Ivoire,cote-divoire,215018000000.0,2024,76,Africa
+Oman,oman,193591000000.0,2024,77,Middle East
+Serbia,serbia,177093000000.0,2024,78,Europe
+Croatia,croatia,164825000000.0,2024,79,Europe
+Panama,panama,164484000000.0,2024,80,Central America and the Caribbean
+"Congo, Democratic Republic of the",congo-democratic-republic-of-the,164367000000.0,2024,81,Africa
+Tunisia,tunisia,156086000000.0,2024,82,Africa
+Nepal,nepal,149643000000.0,2024,83,South Asia
+Uganda,uganda,144137000000.0,2024,84,Africa
+Cameroon,cameroon,143264000000.0,2024,85,Africa
+Puerto Rico,puerto-rico,141344000000.0,2024,86,Central America and the Caribbean
+Costa Rica,costa-rica,138371000000.0,2024,87,Central America and the Caribbean
+Lithuania,lithuania,136227000000.0,2024,88,Europe
+Turkmenistan,turkmenistan,134555000000.0,2024,89,Central Asia
+Cambodia,cambodia,123676000000.0,2024,90,East and Southeast Asia
+Bolivia,bolivia,122200000000.0,2024,91,South America
+Paraguay,paraguay,112919000000.0,2024,92,South America
+Venezuela,venezuela,110943000000.0,2023,93,South America
+Jordan,jordan,109986000000.0,2024,94,Middle East
+Uruguay,uruguay,108502000000.0,2024,95,South America
+Slovenia,slovenia,103118000000.0,2024,96,Europe
+Syria,syria,98858000000.0,2023,97,Middle East
+Sudan,sudan,94420000000.0,2024,98,Africa
+Bahrain,bahrain,93937000000.0,2024,99,Middle East
+Georgia,georgia,91849000000.0,2024,100,Central Asia
+Libya,libya,90609000000.0,2024,101,Africa
+Luxembourg,luxembourg,86871000000.0,2024,102,Europe
+Senegal,senegal,83183000000.0,2024,103,Africa
+Afghanistan,afghanistan,82238000000.0,2023,104,South Asia
+Cuba,cuba,81165000000.0,2024,105,Central America and the Caribbean
+Zambia,zambia,79207000000.0,2024,106,Africa
+Macau,macau,77524000000.0,2024,107,East and Southeast Asia
+El Salvador,el-salvador,73961000000.0,2024,108,Central America and the Caribbean
+Latvia,latvia,72516000000.0,2024,109,Europe
+Honduras,honduras,71297000000.0,2024,110,Central America and the Caribbean
+Mali,mali,71253000000.0,2024,111,Africa
+Laos,laos,66905000000.0,2024,112,East and Southeast Asia
+Lebanon,lebanon,65415000000.0,2023,113,Middle East
+Bosnia and Herzegovina,bosnia-and-herzegovina,64641000000.0,2024,114,Europe
+Armenia,armenia,60909000000.0,2024,115,Central Asia
+Burkina Faso,burkina-faso,60001000000.0,2024,116,Africa
+Guinea,guinea,59439000000.0,2024,117,Africa
+Mongolia,mongolia,59221000000.0,2024,118,East and Southeast Asia
+Guyana,guyana,58423000000.0,2024,119,South America
+Zimbabwe,zimbabwe,57391000000.0,2024,120,Africa
+Estonia,estonia,57001000000.0,2024,121,Europe
+Benin,benin,56424000000.0,2024,122,Africa
+Nicaragua,nicaragua,52989000000.0,2024,123,Central America and the Caribbean
+Madagascar,madagascar,52968000000.0,2024,124,Africa
+Chad,chad,52895000000.0,2024,125,Africa
+Mozambique,mozambique,51786000000.0,2024,126,Africa
+Albania,albania,51360000000.0,2024,127,Europe
+Kyrgyzstan,kyrgyzstan,50907000000.0,2024,128,Central Asia
+Tajikistan,tajikistan,50370000000.0,2024,129,Central Asia
+Cyprus,cyprus,50055000000.0,2024,130,Europe
+Gabon,gabon,48045000000.0,2024,131,Africa
+Niger,niger,47921000000.0,2024,132,Africa
+Rwanda,rwanda,46543000000.0,2024,133,Africa
+Botswana,botswana,45553000000.0,2024,134,Africa
+Papua New Guinea,papua-new-guinea,45487000000.0,2024,135,East and Southeast Asia
+North Macedonia,north-macedonia,43844000000.0,2024,136,Europe
+Trinidad and Tobago,trinidad-and-tobago,43362000000.0,2024,137,Central America and the Caribbean
+Moldova,moldova,39342000000.0,2024,138,Europe
+"Congo, Republic of the",congo-republic-of-the,39147000000.0,2024,139,Africa
+Brunei,brunei,36640000000.0,2024,140,East and Southeast Asia
+Malawi,malawi,35425000000.0,2024,141,Africa
+Malta,malta,34731000000.0,2024,142,Europe
+Mauritius,mauritius,34406000000.0,2024,143,Africa
+Mauritania,mauritania,33069000000.0,2024,144,Africa
+Haiti,haiti,32971000000.0,2024,145,Central America and the Caribbean
+Namibia,namibia,31154000000.0,2024,146,Africa
+Equatorial Guinea,equatorial-guinea,29248000000.0,2024,147,Africa
+Jamaica,jamaica,29130000000.0,2024,148,Central America and the Caribbean
+Togo,togo,27115000000.0,2024,149,Africa
+Somalia,somalia,26770000000.0,2024,150,Africa
+Sierra Leone,sierra-leone,26728000000.0,2024,151,Africa
+Iceland,iceland,26561000000.0,2024,152,Europe
+Kosovo,kosovo,25019000000.0,2024,153,Europe
+West Bank,west-bank,20339000000.0,2024,154,Middle East
+Gaza Strip,gaza-strip,20339000000.0,2024,155,Middle East
+Yemen,yemen,18719000000.0,2024,156,Middle East
+Montenegro,montenegro,17375000000.0,2024,157,Europe
+"Korea, North",korea-north,15416000000.0,2023,158,East and Southeast Asia
+"Bahamas, The",bahamas-the,14544000000.0,2024,159,Central America and the Caribbean
+Fiji,fiji,13100000000.0,2024,160,Australia and Oceania
+Eswatini,eswatini,12885000000.0,2024,161,Africa
+Maldives,maldives,12325000000.0,2024,162,South Asia
+Suriname,suriname,12316000000.0,2024,163,South America
+Burundi,burundi,11739000000.0,2024,164,Africa
+Bhutan,bhutan,11517000000.0,2023,165,South Asia
+Liberia,liberia,9308000000.0,2024,166,Africa
+Monaco,monaco,8924000000.0,2024,167,Europe
+New Caledonia,new-caledonia,8469000000.0,2024,168,Australia and Oceania
+"Gambia, The",gambia-the,8365000000.0,2024,169,Africa
+Djibouti,djibouti,7995000000.0,2024,170,Africa
+Liechtenstein,liechtenstein,7172000000.0,2024,171,Europe
+Bermuda,bermuda,6808000000.0,2024,172,North America
+South Sudan,south-sudan,6752000000.0,2023,173,Africa
+Lesotho,lesotho,6166000000.0,2024,174,Africa
+French Polynesia,french-polynesia,6007000000.0,2024,175,Australia and Oceania
+Central African Republic,central-african-republic,5926000000.0,2024,176,Africa
+Guinea-Bissau,guinea-bissau,5912000000.0,2024,177,Africa
+Timor-Leste,timor-leste,5863000000.0,2024,178,East and Southeast Asia
+Cayman Islands,cayman-islands,5705000000.0,2023,179,Central America and the Caribbean
+Barbados,barbados,5634000000.0,2024,180,Central America and the Caribbean
+Jersey,jersey,5569000000.0,2016,181,Europe
+Belize,belize,5538000000.0,2024,182,Central America and the Caribbean
+Andorra,andorra,5402000000.0,2024,183,Europe
+Cabo Verde,cabo-verde,5200000000.0,2024,184,Africa
+Virgin Islands,virgin-islands,4900000000.0,2022,185,Central America and the Caribbean
+Saint Lucia,saint-lucia,4359000000.0,2024,186,Central America and the Caribbean
+Aruba,aruba,4350000000.0,2023,187,Central America and the Caribbean
+Curacao,curacao,4312000000.0,2023,188,Central America and the Caribbean
+Greenland,greenland,4040000000.0,2023,189,North America
+Faroe Islands,faroe-islands,3834000000.0,2023,190,Europe
+Seychelles,seychelles,3549000000.0,2024,191,Africa
+Comoros,comoros,3092000000.0,2024,192,Africa
+Antigua and Barbuda,antigua-and-barbuda,2772000000.0,2024,193,Central America and the Caribbean
+Eritrea,eritrea,2534000000.0,2024,194,Africa
+San Marino,san-marino,2393000000.0,2022,195,Europe
+Grenada,grenada,2080000000.0,2024,196,Central America and the Caribbean
+Solomon Islands,solomon-islands,2070000000.0,2024,197,Australia and Oceania
+Sint Maarten,sint-maarten,1986000000.0,2024,198,Central America and the Caribbean
+Saint Vincent and the Grenadines,saint-vincent-and-the-grenadines,1883000000.0,2024,199,Central America and the Caribbean
+British Virgin Islands,british-virgin-islands,1634000000.0,2024,200,Central America and the Caribbean
+Turks and Caicos Islands,turks-and-caicos-islands,1554000000.0,2024,201,Central America and the Caribbean
+Samoa,samoa,1503000000.0,2024,202,Australia and Oceania
+Saint Kitts and Nevis,saint-kitts-and-nevis,1465000000.0,2024,203,Central America and the Caribbean
+Sao Tome and Principe,sao-tome-and-principe,1291000000.0,2024,204,Africa
+Northern Mariana Islands,northern-mariana-islands,1242000000.0,2016,205,Australia and Oceania
+Dominica,dominica,1241000000.0,2024,206,Central America and the Caribbean
+Vanuatu,vanuatu,1039000000.0,2024,207,Australia and Oceania
+Tonga,tonga,740082000.0,2023,208,Australia and Oceania
+American Samoa,american-samoa,658000000.0,2016,209,Australia and Oceania
+Kiribati,kiribati,438143000.0,2024,210,Australia and Oceania
+"Micronesia, Federated States of",micronesia-federated-states-of,432679000.0,2024,211,Australia and Oceania
+Cook Islands,cook-islands,401155000.0,2024,212,Australia and Oceania
+Anguilla,anguilla,362499000.0,2024,213,Central America and the Caribbean
+Palau,palau,280025000.0,2023,214,Australia and Oceania
+Marshall Islands,marshall-islands,270809000.0,2024,215,Australia and Oceania
+Saint Pierre and Miquelon,saint-pierre-and-miquelon,261300000.0,2015,216,North America
+Nauru,nauru,150581000.0,2024,217,Australia and Oceania
+Montserrat,montserrat,89254000.0,2024,218,Central America and the Caribbean
+Tuvalu,tuvalu,57055000.0,2023,219,Australia and Oceania
+Niue,niue,18700000.0,2021,220,Australia and Oceania
+Tokelau,tokelau,7711583.0,2017,221,Australia and Oceania
+France,france,3732000000000.0,2024,9,Europe

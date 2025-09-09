@@ -1,0 +1,15 @@
+Mary had a little lamb
+Its fleece was white as snow
+And everywhere that Mary went
+The lamb was sure to go.
+and you run
+
+reverse file.txt result.txt
+then result.txt contains
+
+run you and
+
+The lamb was sure to go.
+And everywhere that Mary went
+Its fleece was white as snow
+Mary had a little lamb
