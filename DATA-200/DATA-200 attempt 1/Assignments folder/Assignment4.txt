@@ -1,0 +1,24 @@
+Q [10 Marks] You need to develop MyStack container which will provide stack data structure 
+functionality such as shown following:
+
+1) Pop the value
+
+2) Push the value
+
+3) is_empty to check if stack is empty
+
+4) Print the last element
+
+ 
+
+Once implemented , you need to refer MyStack container to reverse the file. This will be your stack 
+which can be used like Python provided stack functionality on list but it strictly follows the stack
+rules. You can refer mystack_hw.py file uploaded in files folder under Week 4 and fill up the 
+functions accordingly.
+
+Note: You must implement all the functions provided in mystack_hw.py.
+
+ 
+
+Q 2 [10 Marks]: Write all the details of all the functions required to implement 
+stack/queues/dequeue. Max 1 page and submit it in PDF format.
