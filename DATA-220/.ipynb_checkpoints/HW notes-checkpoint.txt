@@ -1,0 +1,6 @@
+Homework 1:
+Submit both PDF version and .ipynb files.
+(6 points)  Plot the following graph with sympy library (  a) and b) graphs are separate graphs.)
+a)  f(x) = 2x^3 - 9x + 4 and g(x) = 12x + 3 on the same graph (with title=“my first graph”)
+
+b)  z = 3x^2 - 2y^2
