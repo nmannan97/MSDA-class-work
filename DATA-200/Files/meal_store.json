@@ -1,0 +1,55 @@
+{
+  "users": {
+    "admin@meal.com": {
+      "email": "admin@meal.com",
+      "name": "Admin",
+      "password": "admin123"
+    },
+    "john@example.com": {
+      "email": "john@example.com",
+      "name": "John Doe",
+      "password": "john123"
+    },
+    "jane@example.com": {
+      "email": "jane@example.com",
+      "name": "Jane Smith",
+      "password": "jane123"
+    }
+  },
+  "meal_plans": {
+    "1": {
+      "id": "1",
+      "name": "Chicken Salad",
+      "calories": 450
+    },
+    "2": {
+      "id": "2",
+      "name": "Oatmeal Breakfast",
+      "calories": 300
+    },
+    "3": {
+      "id": "3",
+      "name": "Grilled Fish Dinner",
+      "calories": 500
+    },
+    "john@example.com": [
+      {
+        "id": "1",
+        "name": "Chicken Salad",
+        "calories": 450
+      },
+      {
+        "id": "2",
+        "name": "Oatmeal Breakfast",
+        "calories": 300
+      }
+    ],
+    "jane@example.com": [
+      {
+        "id": "3",
+        "name": "Grilled Fish Dinner",
+        "calories": 500
+      }
+    ]
+  }
+}

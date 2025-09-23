@@ -1,0 +1,81 @@
+{
+  "users": {
+    "admin@store.com": {
+      "email": "admin@store.com",
+      "name": "Admin",
+      "password": "admin123",
+      "is_admin": true
+    },
+    "john@example.com": {
+      "email": "john@example.com",
+      "name": "John Doe",
+      "password": "12345",
+      "is_admin": false
+    },
+    "nmannan97@gmail.com": {
+      "email": "nmannan97@gmail.com",
+      "name": "Naeem M",
+      "password": "12345",
+      "is_admin": false
+    },
+    "admin@meal.com": {
+      "email": "admin@meal.com",
+      "name": "Admin",
+      "password": "admin123",
+      "is_admin": false
+    },
+    "nmannan97": {
+      "email": "nmannan97",
+      "name": "naeem",
+      "password": "12345",
+      "is_admin": false
+    }
+  },
+  "products": {
+    "1": {
+      "id": "1",
+      "name": "Smartphone XYZ",
+      "price": 499.99,
+      "inventory": 10
+    },
+    "2": {
+      "id": "2",
+      "name": "Wireless Headphones ABC",
+      "price": 199.99,
+      "inventory": 4
+    }
+  },
+  "orders": {
+    "1": {
+      "id": "1",
+      "customer_email": "john@example.com",
+      "items": [
+        {
+          "product_id": "1",
+          "qty": 1
+        },
+        {
+          "product_id": "2",
+          "qty": 2
+        }
+      ]
+    },
+    "c77b5a10-3c9d-4d55-8139-804f44b52895": {
+      "id": "c77b5a10-3c9d-4d55-8139-804f44b52895",
+      "customer_email": "nmannan97@gmail.com",
+      "items": []
+    }
+  },
+  "meal_plans": {
+    "john@example.com": [
+      {
+        "name": "Chicken Salad",
+        "calories": 450
+      },
+      {
+        "name": "Oatmeal",
+        "calories": 300
+      }
+    ]
+  }
+}
