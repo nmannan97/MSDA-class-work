@@ -1,2 +1,5 @@
 #Enviornment file
 .env
+
+#Ugreen NAS file
+.stignore
