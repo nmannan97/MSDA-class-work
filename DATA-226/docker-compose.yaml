@@ -1,0 +1,42 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - postgres-db-volume:/var/lib/postgresql/data
+
+  webserver:
+    image: apache/airflow:2.9.0
+    restart: always
+    depends_on:
+      - postgres
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW__CORE__FERNET_KEY=UjPz3hFzTXXC-p5N2WJ1y2gn6HVGm3o7IR1K8kdMmqQ=
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./requirements.txt:/requirements.txt
+    ports:
+      - "8081:8080"
+    command: bash -c "pip install -r /requirements.txt && airflow db init && airflow webserver"
+
+  scheduler:
+    image: apache/airflow:2.9.0
+    restart: always
+    depends_on:
+      - webserver
+    environment:
+      - AIRFLOW__CORE__FERNET_KEY=UjPz3hFzTXXC-p5N2WJ1y2gn6HVGm3o7IR1K8kdMmqQ=
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./requirements.txt:/requirements.txt
+    command: bash -c "pip install -r /requirements.txt && airflow scheduler"
+
+volumes:
+  postgres-db-volume:
