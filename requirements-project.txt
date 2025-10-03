@@ -1,0 +1,6 @@
+yfinance==0.2.59
+snowflake-connector-python==3.17.4
+snowflake-sqlalchemy==1.5.1
+pandas==1.5.3
+python-dotenv==1.0.1
+requests==2.31.0

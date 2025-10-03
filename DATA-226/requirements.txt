@@ -1,4 +1,0 @@
-apache-airflow
-requests
-snowflake-connector-python
-python-dotenv
