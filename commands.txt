@@ -1,0 +1,14 @@
+--Run the venv on windows
+source airflow_env/Scripts/activate
+
+--deactiveate venv
+deactiveate
+
+--docker and
+docker-compose up -d
+docker-compose run airflow-worker airflow users create --role Admin --username admin --email admin --firstname admin --lastname admin --password admin
+
+--Airflow commands
+airflow standalone (starts airflow)
+source ~/airflow_venv/bin/activate
+http://localhost:8080/
