@@ -1,0 +1,24 @@
+name: "wau_project"
+version: "1.0.0"
+config-version: 2
+
+profile: "wau_project"
+
+model-paths: ["models"]
+snapshot-paths: ["snapshots"]
+analysis-paths: ["analysis"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+
+models:
+  wau_project:
+    +materialized: view
+    input:
+      +materialized: view     # stage/input as views
+    output:
+      +materialized: table    # final output as table
+
+snapshots:
+  wau_project:
+    +target_schema: snapshots # change if you prefer a different schema
