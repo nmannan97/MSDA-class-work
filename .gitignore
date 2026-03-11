@@ -5,3 +5,5 @@
 .stignore
 
 DATA-226/logs/
+
+aml_env 

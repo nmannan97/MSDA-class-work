@@ -12,3 +12,7 @@ docker-compose run airflow-worker airflow users create --role Admin --username a
 airflow standalone (starts airflow)
 source ~/airflow_venv/bin/activate
 http://localhost:8080/
+
+
+
+python "e:/Masters Data Analytics/MSDA-class-work/DATA-245/Homework4.py"
